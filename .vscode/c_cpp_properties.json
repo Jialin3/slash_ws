@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jetson/slash_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/jetson/slash_ws/install/fast_lio/include/**",
+        "/home/jetson/slash_ws/install/livox_ros_driver2/include/**",
+        "/home/jetson/slash_ws/install/linefit_ground_segmentation/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/**",
+        "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/**",
+        "/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

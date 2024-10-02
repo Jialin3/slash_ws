@@ -21,7 +21,7 @@ ROS2 foxy
     cmake .. && make -j
     sudo make install
     ```
-    ps：之前用过4g版本的jetson oroin nano在多线程编译make -j时会直接卡死
+    ps：之前用过4g版本的jetson orin nano在多线程编译make -j时会直接卡死
 
 3. 安装依赖
     ```sh

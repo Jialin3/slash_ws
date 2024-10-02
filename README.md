@@ -21,11 +21,13 @@ ROS2 foxy
     sudo make install
     ```
 ps：之前用过4g版本的jetson oroin nano在多线程编译make -j时会直接卡死
+
 3. 安装依赖
     ```sh
     rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
     ```
 ps: 大概率rosdep连接超时，手动用二进制apt安装需要的依赖
+
 4. 编译
 
     ```sh

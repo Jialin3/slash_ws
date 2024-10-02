@@ -42,4 +42,5 @@ ROS2 foxy
 
 ## 三. 测试图
 ![fast_lio测试](image/fast_lio测试.jpg)
+![小车](image/小车.jpg)
 

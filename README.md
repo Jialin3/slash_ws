@@ -38,5 +38,5 @@ ROS2 foxy
         --packages-select编译指定包
 
 ## 二. 框架图
-![功能包流程图](image/软件框架图.png)
+image/软件框架图.png
 

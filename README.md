@@ -40,3 +40,6 @@ ROS2 foxy
 ## 二. 框架图
 ![功能包流程图](image/软件框架图.png)
 
+## 三. 测试图
+![fast_lio测试](image/fast_lio测试.jpg)
+

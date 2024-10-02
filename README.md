@@ -27,7 +27,7 @@ ROS2 foxy
     ```sh
     rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
     ```
-    ps: 大概率rosdep连接超时，手动用二进制apt安装需要的依赖
+    ps：大概率rosdep连接超时，手动用二进制apt安装需要的依赖
 
 4. 编译
 

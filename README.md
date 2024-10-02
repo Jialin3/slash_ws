@@ -1,4 +1,4 @@
-## 一.  环境配置
+## 一. 环境配置
 ARM64 (jetson orin nx)
 ubuntu20.04
 ROS2 foxy
@@ -36,4 +36,7 @@ ROS2 foxy
     ```
     ps：--symlink-instal方便调试参数文件不用二次编译，
         --packages-select编译指定包
+
+## 二. 框架图
+![功能包流程图](image/软件框架图.png)
 

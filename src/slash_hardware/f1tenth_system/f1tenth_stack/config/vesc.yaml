@@ -29,7 +29,7 @@
 
 vesc_to_odom_node:
   ros__parameters:
-    odom_frame: odom
+    odom_frame: metro_odom
     base_frame: base_link
     # publish odom to base link tf
     publish_tf: true

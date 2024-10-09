@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/slash_ws/build/teleop_tools_msgs/rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__python.so" "TARGETS" "teleop_tools_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

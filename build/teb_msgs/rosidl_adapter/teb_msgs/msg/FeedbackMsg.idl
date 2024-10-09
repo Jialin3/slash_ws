@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from teb_msgs/msg/FeedbackMsg.msg
+// generated code does not contain a copyright notice
+
+#include "costmap_converter_msgs/msg/ObstacleArrayMsg.idl"
+#include "std_msgs/msg/Header.idl"
+#include "teb_msgs/msg/TrajectoryMsg.idl"
+
+module teb_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Message that contains intermediate results" "\n"
+      " and diagnostics of the (predictive) planner.")
+    struct FeedbackMsg {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The planned trajectory (or if multiple plans exist, all of them)")
+      sequence<teb_msgs::msg::TrajectoryMsg> trajectories;
+
+      @verbatim (language="comment", text=
+        " Index of the trajectory in 'trajectories' that is selected currently")
+      uint16 selected_trajectory_idx;
+
+      @verbatim (language="comment", text=
+        " List of active obstacles")
+      costmap_converter_msgs::msg::ObstacleArrayMsg obstacles_msg;
+    };
+  };
+};

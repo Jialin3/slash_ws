@@ -1,0 +1,136 @@
+[ 10%] Built target vesc_msgs__rosidl_generator_c
+[ 12%] Built target vesc_msgs__cpp
+[ 23%] Built target vesc_msgs__rosidl_typesupport_c
+[ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[ 67%] Built target vesc_msgs__rosidl_typesupport_cpp
+[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target vesc_msgs
+[ 80%] Built target vesc_msgs__py
+[ 89%] Built target vesc_msgs__python
+[ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__python.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/jetson/slash_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake

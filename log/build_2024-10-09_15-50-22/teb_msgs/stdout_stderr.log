@@ -1,0 +1,227 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found costmap_converter_msgs: 0.1.2 (/home/jetson/slash_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/teb_msgs
+[35m[1mScanning dependencies of target teb_msgs__cpp[0m
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target teb_msgs__cpp
+[35m[1mScanning dependencies of target teb_msgs__rosidl_generator_c[0m
+[  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 10%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/feedback_msg__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_point_msg__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_msg__functions.c.o[0m
+[ 17%] [32m[1mLinking C shared library libteb_msgs__rosidl_generator_c.so[0m
+[ 17%] Built target teb_msgs__rosidl_generator_c
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_cpp[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/feedback_msg__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_msg__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/feedback_msg__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_cpp.so[0m
+[ 34%] Built target teb_msgs__rosidl_typesupport_cpp
+[ 36%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_point_msg__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 40%] Built target teb_msgs__rosidl_typesupport_introspection_cpp
+[ 42%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_msg__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 44%] Built target teb_msgs__rosidl_typesupport_fastrtps_cpp
+[ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_c[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_c.so[0m
+[ 55%] Built target teb_msgs__rosidl_typesupport_c
+[ 57%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/feedback_msg__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_point_msg__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_msg__type_support_c.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] Built target teb_msgs__rosidl_typesupport_fastrtps_c
+[ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_introspection_c[0m
+[ 70%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/feedback_msg__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_point_msg__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_msg__type_support.c.o[0m
+[ 76%] [32m[1mLinking C shared library libteb_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 76%] Built target teb_msgs__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target teb_msgs[0m
+[ 76%] Built target teb_msgs
+[35m[1mScanning dependencies of target teb_msgs__py[0m
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target teb_msgs__py
+[35m[1mScanning dependencies of target teb_msgs__python[0m
+[ 80%] [32mBuilding C object CMakeFiles/teb_msgs__python.dir/rosidl_generator_py/teb_msgs/msg/_feedback_msg_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/teb_msgs__python.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_point_msg_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/teb_msgs__python.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_msg_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/libteb_msgs__python.so[0m
+[ 87%] Built target teb_msgs__python
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 89%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32m[1mLinking CXX shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 91%] Built target teb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 93%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 95%] Built target teb_msgs__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target teb_msgs__rosidl_typesupport_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[100%] Built target teb_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/rosidl_interfaces/teb_msgs
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__functions.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__struct.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__type_support.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__functions.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__struct.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__type_support.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__functions.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__struct.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__type_support.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/feedback_msg.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_msg.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_point_msg.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/library_path.sh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/library_path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__builder.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__struct.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__traits.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__type_support.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__builder.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__struct.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__traits.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__type_support.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__builder.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__type_support.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/feedback_msg.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_msg.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_point_msg.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.sh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/__init__.py
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/__init__.py
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_feedback_msg.py
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_trajectory_msg.py
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_trajectory_point_msg.py
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__python.so
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.idl
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.idl
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.idl
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.msg
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.msg
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.msg
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/package_run_dependencies/teb_msgs
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/parent_prefix_path/teb_msgs
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/path.sh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.bash
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.sh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.zsh
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/package.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/packages/teb_msgs
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig-version.cmake
+-- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/package.xml
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/__init__.py'...
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport-noconfig.cmake

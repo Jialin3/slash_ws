@@ -1,0 +1,40 @@
+[0.496s] Invoking command in '/home/jetson/slash_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/linefit_ground_segmentation -- -j8 -l8
+[0.932s] [100%] Built target linefit_ground_segmentation
+[0.943s] Invoked command in '/home/jetson/slash_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/linefit_ground_segmentation -- -j8 -l8
+[1.033s] Invoking command in '/home/jetson/slash_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/linefit_ground_segmentation
+[1.061s] -- Install configuration: ""
+[1.063s] -- Execute custom install script
+[1.065s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[1.066s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[1.067s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[1.067s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[1.068s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[1.068s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[1.069s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[1.070s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[1.070s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[1.070s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[1.070s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[1.071s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[1.072s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[1.074s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[1.074s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[1.074s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[1.078s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[1.079s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[1.079s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[1.079s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[1.080s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[1.080s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[1.080s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[1.103s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[1.103s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_targets-extras.cmake
+[1.105s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.105s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.106s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[1.108s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[1.108s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[1.110s] -- Up-to-date: /home/jetson/slash_ws/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[1.111s] -- Up-to-date: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationExport.cmake
+[1.112s] -- Up-to-date: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationExport-noconfig.cmake
+[1.119s] Invoked command in '/home/jetson/slash_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/linefit_ground_segmentation

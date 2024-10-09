@@ -1,0 +1,38 @@
+[ 50%] Built target vesc_driver
+[ 70%] Built target vesc_driver_node
+[100%] Built target vesc_device_namer
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/lib/libvesc_driver.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_driver/share/vesc_driver/package.xml

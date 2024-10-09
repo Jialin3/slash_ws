@@ -1,0 +1,124 @@
+[0.103s] Invoking command in '/home/jetson/slash_ws/build/teb_msgs': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/teb_msgs -- -j8 -l8
+[0.232s] [  2%] Built target teb_msgs__cpp
+[0.301s] [ 12%] Built target teb_msgs__rosidl_generator_c
+[0.317s] [ 23%] Built target teb_msgs__rosidl_typesupport_cpp
+[0.368s] [ 34%] Built target teb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.369s] [ 44%] Built target teb_msgs__rosidl_typesupport_introspection_cpp
+[0.431s] [ 55%] Built target teb_msgs__rosidl_typesupport_introspection_c
+[0.455s] [ 65%] Built target teb_msgs__rosidl_typesupport_c
+[0.498s] [ 76%] Built target teb_msgs__rosidl_typesupport_fastrtps_c
+[0.594s] [ 76%] Built target teb_msgs
+[0.688s] [ 78%] Built target teb_msgs__py
+[0.752s] [ 87%] Built target teb_msgs__python
+[0.804s] [ 95%] Built target teb_msgs__rosidl_typesupport_c__pyext
+[0.805s] [ 95%] Built target teb_msgs__rosidl_typesupport_introspection_c__pyext
+[0.805s] [100%] Built target teb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.110s] Invoked command in '/home/jetson/slash_ws/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/teb_msgs -- -j8 -l8
+[1.402s] Invoking command in '/home/jetson/slash_ws/build/teb_msgs': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/teb_msgs
+[1.453s] -- Install configuration: ""
+[1.455s] -- Execute custom install script
+[1.459s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/rosidl_interfaces/teb_msgs
+[1.467s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__functions.h
+[1.467s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__struct.h
+[1.468s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__type_support.h
+[1.468s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__functions.h
+[1.469s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__struct.h
+[1.470s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__type_support.h
+[1.471s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__functions.h
+[1.472s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__struct.h
+[1.472s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__type_support.h
+[1.473s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/feedback_msg.h
+[1.474s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.475s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_msg.h
+[1.476s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_point_msg.h
+[1.479s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/library_path.sh
+[1.480s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/library_path.dsv
+[1.481s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_c.h
+[1.481s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_c.h
+[1.482s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_c.h
+[1.482s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.483s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so
+[1.485s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.487s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.488s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_c.h
+[1.489s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_c.h
+[1.489s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_c.h
+[1.490s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.491s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__builder.hpp
+[1.492s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__struct.hpp
+[1.492s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__traits.hpp
+[1.493s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__type_support.hpp
+[1.493s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__builder.hpp
+[1.493s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__struct.hpp
+[1.494s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__traits.hpp
+[1.494s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__type_support.hpp
+[1.495s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__builder.hpp
+[1.495s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp
+[1.495s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp
+[1.496s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__type_support.hpp
+[1.496s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/feedback_msg.hpp
+[1.497s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.497s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_msg.hpp
+[1.498s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/trajectory_point_msg.hpp
+[1.499s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.499s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.500s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/include/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.500s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.sh
+[1.501s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/pythonpath.dsv
+[1.503s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/__init__.py
+[1.504s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/__init__.py
+[1.505s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_feedback_msg.py
+[1.505s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_trajectory_msg.py
+[1.505s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/msg/_trajectory_point_msg.py
+[1.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.508s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__python.so
+[1.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.idl
+[1.511s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.idl
+[1.512s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.idl
+[1.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.msg
+[1.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.msg
+[1.514s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.msg
+[1.515s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/package_run_dependencies/teb_msgs
+[1.516s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/parent_prefix_path/teb_msgs
+[1.516s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.sh
+[1.517s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.dsv
+[1.517s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/path.sh
+[1.518s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/environment/path.dsv
+[1.519s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.bash
+[1.519s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.sh
+[1.520s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.zsh
+[1.520s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/local_setup.dsv
+[1.520s] -- Symlinking: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/package.dsv
+[1.543s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/ament_index/resource_index/packages/teb_msgs
+[1.544s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake-extras.cmake
+[1.544s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.545s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.545s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.546s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.547s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.547s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.548s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig.cmake
+[1.548s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig-version.cmake
+[1.549s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/package.xml
+[1.551s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so
+[1.552s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so
+[1.552s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so
+[1.553s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so
+[1.555s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so
+[1.623s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cExport.cmake
+[1.623s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.627s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.627s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.629s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport.cmake
+[1.629s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.631s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_generator_cppExport.cmake
+[1.632s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.633s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.634s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport.cmake
+[1.634s] -- Up-to-date: /home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.693s] Invoked command in '/home/jetson/slash_ws/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/teb_msgs

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from teleop_tools_msgs/action/Increment.action
+// generated code does not contain a copyright notice
+
+
+module teleop_tools_msgs {
+  module action {
+    struct Increment_Goal {
+      sequence<float> increment_by;
+    };
+    struct Increment_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Increment_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

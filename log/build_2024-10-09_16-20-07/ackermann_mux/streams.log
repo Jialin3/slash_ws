@@ -1,0 +1,73 @@
+[0.096s] Invoking command in '/home/jetson/slash_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/ackermann_mux -- -j8 -l8
+[0.947s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.947s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.948s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.948s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.948s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.047s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.096s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.190s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.339s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.379s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.379s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.379s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.412s] -- Added test 'xmllint' to check XML markup files
+[1.415s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.424s] -- Configured cppcheck include dirs: /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/ackermann_mux/include
+[1.424s] -- Configured cppcheck exclude dirs and/or files: 
+[1.426s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.426s] -- Configured cpplint exclude dirs and/or files: 
+[1.427s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.428s] -- Added test 'lint_cmake' to check CMake code style
+[1.429s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.431s] -- Added test 'uncrustify' to check C / C++ code style
+[1.431s] -- Configured uncrustify additional arguments: 
+[1.441s] -- Configuring done
+[1.463s] -- Generating done
+[1.466s] -- Build files have been written to: /home/jetson/slash_ws/build/ackermann_mux
+[1.546s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[1.605s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[1.621s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[1.626s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[16.122s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[16.862s] [100%] Built target ackermann_mux
+[16.884s] Invoked command in '/home/jetson/slash_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/ackermann_mux -- -j8 -l8
+[16.935s] Invoking command in '/home/jetson/slash_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/ackermann_mux
+[16.953s] -- Install configuration: ""
+[16.954s] -- Execute custom install script
+[16.954s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[16.955s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[16.956s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[16.957s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[16.957s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[16.958s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[16.958s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[16.959s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[16.959s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[16.959s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[16.960s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[16.960s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[16.961s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[16.961s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[16.962s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[16.962s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[16.962s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[16.963s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[16.963s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[16.964s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[16.964s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[16.965s] -- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[16.984s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[16.984s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.985s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.985s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[16.985s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[16.986s] -- Up-to-date symlink: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[16.991s] Invoked command in '/home/jetson/slash_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/ackermann_mux

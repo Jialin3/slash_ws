@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/slash_ws/build/fast_lio/rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "fast_lio__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/fast_lio")

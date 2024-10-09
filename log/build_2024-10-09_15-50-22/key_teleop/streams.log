@@ -1,0 +1,27 @@
+[1.791s] Invoking command in '/home/jetson/slash_ws/build/key_teleop': PYTHONPATH=/home/jetson/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/key_teleop/build --no-deps symlink_data
+[3.067s] running develop
+[3.067s] running egg_info
+[3.067s] creating key_teleop.egg-info
+[3.067s] writing key_teleop.egg-info/PKG-INFO
+[3.068s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[3.068s] writing entry points to key_teleop.egg-info/entry_points.txt
+[3.068s] writing requirements to key_teleop.egg-info/requires.txt
+[3.068s] writing top-level names to key_teleop.egg-info/top_level.txt
+[3.069s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[3.069s] reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+[3.069s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[3.069s] running build_ext
+[3.069s] Creating /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/site.py
+[3.069s] Creating /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+[3.070s] Installing key_teleop script to /home/jetson/slash_ws/install/key_teleop/lib/key_teleop
+[3.070s] 
+[3.070s] Installed /home/jetson/slash_ws/build/key_teleop
+[3.070s] running symlink_data
+[3.070s] symbolically linking /home/jetson/slash_ws/build/key_teleop/package.xml -> /home/jetson/slash_ws/install/key_teleop/share/key_teleop
+[3.070s] creating /home/jetson/slash_ws/install/key_teleop/share/key_teleop/config
+[3.070s] symbolically linking /home/jetson/slash_ws/build/key_teleop/config/key_teleop.yaml -> /home/jetson/slash_ws/install/key_teleop/share/key_teleop/config
+[3.071s] creating /home/jetson/slash_ws/install/key_teleop/share/ament_index
+[3.071s] creating /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index
+[3.071s] creating /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+[3.071s] symbolically linking /home/jetson/slash_ws/build/key_teleop/resource/key_teleop -> /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+[3.094s] Invoked command in '/home/jetson/slash_ws/build/key_teleop' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/key_teleop/build --no-deps symlink_data

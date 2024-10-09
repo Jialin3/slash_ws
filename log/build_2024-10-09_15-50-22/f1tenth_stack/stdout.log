@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating f1tenth_stack.egg-info
+writing f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to f1tenth_stack.egg-info/entry_points.txt
+writing requirements to f1tenth_stack.egg-info/requires.txt
+writing top-level names to f1tenth_stack.egg-info/top_level.txt
+writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/site.py
+Creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth-stack.egg-link (link to .)
+Installing tf_publisher script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+
+Installed /home/jetson/slash_ws/build/f1tenth_stack
+running symlink_data
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/resource/f1tenth_stack -> /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/package.xml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/launch/bringup_launch.py -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/sensors.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/joy_teleop.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/mux.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/vesc.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/f1tenth_online_async.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config

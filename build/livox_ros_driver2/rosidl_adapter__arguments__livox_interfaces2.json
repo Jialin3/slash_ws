@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_ros_driver2",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src:msg/CustomPoint.msg",
+    "/home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src:msg/CustomMsg.msg"
+  ]
+}

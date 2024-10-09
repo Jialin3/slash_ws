@@ -1,0 +1,24 @@
+{
+  "package_name": "fast_lio",
+  "output_dir": "/home/jetson/slash_ws/build/fast_lio/rosidl_generator_c/fast_lio",
+  "template_dir": "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/jetson/slash_ws/build/fast_lio/rosidl_adapter/fast_lio:msg/Pose6D.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/jetson/slash_ws/build/fast_lio/rosidl_adapter/fast_lio/msg/Pose6D.idl"
+  ]
+}

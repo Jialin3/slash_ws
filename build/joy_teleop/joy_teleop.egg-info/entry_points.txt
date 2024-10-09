@@ -1,0 +1,4 @@
+[console_scripts]
+incrementer_server = joy_teleop.incrementer_server:main
+joy_teleop = joy_teleop.joy_teleop:main
+

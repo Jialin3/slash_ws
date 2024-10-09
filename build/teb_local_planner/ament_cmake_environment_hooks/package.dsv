@@ -1,0 +1,4 @@
+source;share/teb_local_planner/local_setup.bash
+source;share/teb_local_planner/local_setup.dsv
+source;share/teb_local_planner/local_setup.sh
+source;share/teb_local_planner/local_setup.zsh

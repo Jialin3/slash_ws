@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+// generated code does not contain a copyright notice
+
+#include "costmap_converter_msgs/msg/ObstacleMsg.idl"
+#include "std_msgs/msg/Header.idl"
+
+module costmap_converter_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Message that contains a list of polygon shaped obstacles." "\n"
+      " Special types:" "\n"
+      " Polygon with 1 vertex: Point obstacle" "\n"
+      " Polygon with 2 vertices: Line obstacle" "\n"
+      " Polygon with more than 2 vertices: First and last points are assumed to be connected")
+    struct ObstacleArrayMsg {
+      std_msgs::msg::Header header;
+
+      sequence<costmap_converter_msgs::msg::ObstacleMsg> obstacles;
+    };
+  };
+};

@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Added test 'xmllint' to check XML markup files
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/ackermann_mux/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/ackermann_mux
+[35m[1mScanning dependencies of target ackermann_mux[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[100%] Built target ackermann_mux
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+-- Symlinking: /home/jetson/slash_ws/install/ackermann_mux/share/ackermann_mux/package.xml

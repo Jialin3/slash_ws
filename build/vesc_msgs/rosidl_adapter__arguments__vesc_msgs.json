@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_msgs:msg/VescState.msg",
+    "/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_msgs:msg/VescImu.msg",
+    "/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

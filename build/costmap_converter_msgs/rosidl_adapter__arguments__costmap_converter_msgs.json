@@ -1,0 +1,7 @@
+{
+  "package_name": "costmap_converter_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_navigation/costmap_converter/costmap_converter_msgs:msg/ObstacleMsg.msg",
+    "/home/jetson/slash_ws/src/slash_navigation/costmap_converter/costmap_converter_msgs:msg/ObstacleArrayMsg.msg"
+  ]
+}

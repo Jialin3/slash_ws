@@ -1,0 +1,17 @@
+source;share/costmap_converter/hook/cmake_prefix_path.ps1
+source;share/costmap_converter/hook/cmake_prefix_path.dsv
+source;share/costmap_converter/hook/cmake_prefix_path.sh
+source;share/costmap_converter/hook/ld_library_path_lib.ps1
+source;share/costmap_converter/hook/ld_library_path_lib.dsv
+source;share/costmap_converter/hook/ld_library_path_lib.sh
+source;share/costmap_converter/hook/path.ps1
+source;share/costmap_converter/hook/path.dsv
+source;share/costmap_converter/hook/path.sh
+source;share/costmap_converter/hook/pythonscriptspath.ps1
+source;share/costmap_converter/hook/pythonscriptspath.dsv
+source;share/costmap_converter/hook/pythonscriptspath.sh
+source;share/costmap_converter/local_setup.bash
+source;share/costmap_converter/local_setup.dsv
+source;share/costmap_converter/local_setup.ps1
+source;share/costmap_converter/local_setup.sh
+source;share/costmap_converter/local_setup.zsh

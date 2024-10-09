@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing key_teleop.egg-info/PKG-INFO
+writing dependency_links to key_teleop.egg-info/dependency_links.txt
+writing entry points to key_teleop.egg-info/entry_points.txt
+writing requirements to key_teleop.egg-info/requires.txt
+writing top-level names to key_teleop.egg-info/top_level.txt
+reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+Installing key_teleop script to /home/jetson/slash_ws/install/key_teleop/lib/key_teleop
+
+Installed /home/jetson/slash_ws/build/key_teleop
+running symlink_data

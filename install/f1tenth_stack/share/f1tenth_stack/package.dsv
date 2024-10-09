@@ -1,0 +1,9 @@
+source;share/f1tenth_stack/hook/pythonpath.ps1
+source;share/f1tenth_stack/hook/pythonpath.dsv
+source;share/f1tenth_stack/hook/pythonpath.sh
+source;share/f1tenth_stack/hook/ament_prefix_path.ps1
+source;share/f1tenth_stack/hook/ament_prefix_path.dsv
+source;share/f1tenth_stack/hook/ament_prefix_path.sh
+source;../../build/f1tenth_stack/share/f1tenth_stack/hook/pythonpath_develop.ps1
+source;../../build/f1tenth_stack/share/f1tenth_stack/hook/pythonpath_develop.dsv
+source;../../build/f1tenth_stack/share/f1tenth_stack/hook/pythonpath_develop.sh

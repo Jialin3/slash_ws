@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: joy-teleop
+Version: 0.3.0
+Summary: A (to be) generic joystick interface to control a robot.
+Home-page: https://github.com/ros-teleop/teleop_tools
+Author: Paul Mathieu
+Author-email: paul.mathieu@pal-robotics.com
+Maintainer: Bence Magyar
+Maintainer-email: bence.magyar.robotics@gmail.com
+License: BSD
+Description:         joy_teleop interfaces a joystick to control/actions sent to a robot.         Its flexibility allows to map any joystick button to any message/service/action.
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

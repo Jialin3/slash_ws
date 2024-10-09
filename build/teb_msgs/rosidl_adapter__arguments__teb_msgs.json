@@ -1,0 +1,8 @@
+{
+  "package_name": "teb_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_msgs:msg/FeedbackMsg.msg",
+    "/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_msgs:msg/TrajectoryMsg.msg",
+    "/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_msgs:msg/TrajectoryPointMsg.msg"
+  ]
+}

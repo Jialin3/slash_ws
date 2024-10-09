@@ -1,0 +1,62 @@
+[0.055s] Invoking command in '/home/jetson/slash_ws/build/slash_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_navigation/slash_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/slash_nav2
+[0.274s] -- The C compiler identification is GNU 9.4.0
+[0.274s] -- The CXX compiler identification is GNU 9.4.0
+[0.281s] -- Check for working C compiler: /usr/bin/cc
+[0.510s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.512s] -- Detecting C compiler ABI info
+[0.904s] -- Detecting C compiler ABI info - done
+[0.926s] -- Detecting C compile features
+[0.936s] -- Detecting C compile features - done
+[0.940s] -- Check for working CXX compiler: /usr/bin/c++
+[1.419s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.421s] -- Detecting CXX compiler ABI info
+[1.836s] -- Detecting CXX compiler ABI info - done
+[1.853s] -- Detecting CXX compile features
+[1.854s] -- Detecting CXX compile features - done
+[1.858s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.933s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.933s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.707s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.113s] -- Configuring done
+[3.117s] -- Generating done
+[3.118s] -- Build files have been written to: /home/jetson/slash_ws/build/slash_nav2
+[3.153s] Invoked command in '/home/jetson/slash_ws/build/slash_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_navigation/slash_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/slash_nav2
+[3.161s] Invoking command in '/home/jetson/slash_ws/build/slash_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/slash_nav2 -- -j8 -l8
+[7.801s] Invoked command in '/home/jetson/slash_ws/build/slash_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/slash_nav2 -- -j8 -l8
+[8.133s] Invoking command in '/home/jetson/slash_ws/build/slash_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/slash_nav2
+[14.384s] -- Install configuration: ""
+[14.384s] -- Execute custom install script
+[14.384s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_real.launch.py
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params.yaml
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.data
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.pgm
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.posegraph
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.yaml
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.data
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.pgm
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.posegraph
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.yaml
+[14.385s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUC.pcd
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUL.pcd
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/fastlio.rviz
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/nav2.rviz
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/pointlio.rviz
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_real.xacro
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_sim.xacro
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/package_run_dependencies/slash_nav2
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/parent_prefix_path/slash_nav2
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.sh
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.dsv
+[14.386s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.sh
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.dsv
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.bash
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.sh
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.zsh
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.dsv
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/package.dsv
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/packages/slash_nav2
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config.cmake
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config-version.cmake
+[14.387s] -- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/package.xml
+[14.436s] Invoked command in '/home/jetson/slash_ws/build/slash_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/slash_nav2

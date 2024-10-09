@@ -1,0 +1,49 @@
+[0.032s] Invoking command in '/home/jetson/slash_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/costmap_converter -- -j8 -l8
+[0.288s] [ 10%] Built target gtest
+[0.337s] [ 21%] Built target gtest_main
+[0.355s] [ 78%] Built target costmap_converter
+[0.471s] [ 89%] Built target standalone_converter
+[0.492s] [100%] Built target test_costmap_polygons
+[0.577s] Invoked command in '/home/jetson/slash_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/costmap_converter -- -j8 -l8
+[0.851s] Invoking command in '/home/jetson/slash_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/costmap_converter
+[1.041s] -- Install configuration: "Release"
+[1.041s] -- Execute custom install script
+[1.041s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/lib/libcostmap_converter.so
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/bin/standalone_converter
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[1.042s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[1.043s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/misc.h
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[1.044s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[1.045s] -- Symlinking: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[1.045s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[1.046s] -- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/package.xml
+[1.069s] Invoked command in '/home/jetson/slash_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/costmap_converter

@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fast_lio/msg/Pose6D.msg
+// generated code does not contain a copyright notice
+
+
+module fast_lio {
+  module msg {
+    typedef double double__3[3];
+    typedef double double__9[9];
+    @verbatim (language="comment", text=
+      " the preintegrated Lidar states at the time of IMU measurements in a frame")
+    struct Pose6D {
+      @verbatim (language="comment", text=
+        " the offset time of IMU measurement w.r.t the first lidar point")
+      double offset_time;
+
+      @verbatim (language="comment", text=
+        " the preintegrated total acceleration (global frame) at the Lidar origin")
+      double__3 acc;
+
+      @verbatim (language="comment", text=
+        " the unbiased angular velocity (body frame) at the Lidar origin")
+      double__3 gyr;
+
+      @verbatim (language="comment", text=
+        " the preintegrated velocity (global frame) at the Lidar origin")
+      double__3 vel;
+
+      @verbatim (language="comment", text=
+        " the preintegrated position (global frame) at the Lidar origin")
+      double__3 pos;
+
+      @verbatim (language="comment", text=
+        " the preintegrated rotation (global frame) at the Lidar origin")
+      double__9 rot;
+    };
+  };
+};

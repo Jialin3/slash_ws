@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/slash_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/ackermann_mux -- -j8 -l8
+Invoked command in '/home/jetson/slash_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/ackermann_mux -- -j8 -l8
+Invoking command in '/home/jetson/slash_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/ackermann_mux
+Invoked command in '/home/jetson/slash_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/ackermann_mux

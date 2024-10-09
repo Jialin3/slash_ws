@@ -1,0 +1,4 @@
+source;share/ackermann_mux/local_setup.bash
+source;share/ackermann_mux/local_setup.dsv
+source;share/ackermann_mux/local_setup.sh
+source;share/ackermann_mux/local_setup.zsh

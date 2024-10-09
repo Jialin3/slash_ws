@@ -1,0 +1,11 @@
+source;share/vesc_ackermann/hook/cmake_prefix_path.ps1
+source;share/vesc_ackermann/hook/cmake_prefix_path.dsv
+source;share/vesc_ackermann/hook/cmake_prefix_path.sh
+source;share/vesc_ackermann/hook/ld_library_path_lib.ps1
+source;share/vesc_ackermann/hook/ld_library_path_lib.dsv
+source;share/vesc_ackermann/hook/ld_library_path_lib.sh
+source;share/vesc_ackermann/local_setup.bash
+source;share/vesc_ackermann/local_setup.dsv
+source;share/vesc_ackermann/local_setup.ps1
+source;share/vesc_ackermann/local_setup.sh
+source;share/vesc_ackermann/local_setup.zsh

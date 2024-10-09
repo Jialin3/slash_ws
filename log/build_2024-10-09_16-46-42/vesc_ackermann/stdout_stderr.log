@@ -1,0 +1,33 @@
+[ 28%] Built target ackermann_to_vesc_node
+[ 57%] Built target vesc_to_odom_node
+[100%] Built target vesc_ackermann
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml

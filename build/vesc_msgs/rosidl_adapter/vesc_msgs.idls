@@ -1,0 +1,4 @@
+/home/jetson/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescState.idl
+/home/jetson/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescStateStamped.idl
+/home/jetson/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImu.idl
+/home/jetson/slash_ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImuStamped.idl

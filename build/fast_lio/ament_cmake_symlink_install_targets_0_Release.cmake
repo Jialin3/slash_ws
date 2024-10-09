@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/slash_ws/build/fast_lio/libfast_lio__rosidl_typesupport_fastrtps_c.so" "TARGETS" "fast_lio__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

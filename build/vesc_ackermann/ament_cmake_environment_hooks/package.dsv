@@ -1,0 +1,4 @@
+source;share/vesc_ackermann/local_setup.bash
+source;share/vesc_ackermann/local_setup.dsv
+source;share/vesc_ackermann/local_setup.sh
+source;share/vesc_ackermann/local_setup.zsh

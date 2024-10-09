@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from costmap_converter_msgs/msg/ObstacleMsg.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Polygon.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/TwistWithCovariance.idl"
+#include "std_msgs/msg/Header.idl"
+
+module costmap_converter_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Special types:" "\n"
+      " Polygon with 1 vertex: Point obstacle (you might also specify a non-zero value for radius)" "\n"
+      " Polygon with 2 vertices: Line obstacle" "\n"
+      " Polygon with more than 2 vertices: First and last points are assumed to be connected")
+    struct ObstacleMsg {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Obstacle footprint (polygon descriptions)")
+      geometry_msgs::msg::Polygon polygon;
+
+      @verbatim (language="comment", text=
+        " Specify the radius for circular/point obstacles")
+      double radius;
+
+      @verbatim (language="comment", text=
+        " Obstacle ID" "\n"
+        " Specify IDs in order to provide (temporal) relationships" "\n"
+        " between obstacles among multiple messages.")
+      int64 id;
+
+      @verbatim (language="comment", text=
+        " Individual orientation (centroid)")
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        " Individual velocities (centroid)")
+      geometry_msgs::msg::TwistWithCovariance velocities;
+    };
+  };
+};

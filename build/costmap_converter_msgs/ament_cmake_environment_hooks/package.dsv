@@ -1,0 +1,4 @@
+source;share/costmap_converter_msgs/local_setup.bash
+source;share/costmap_converter_msgs/local_setup.dsv
+source;share/costmap_converter_msgs/local_setup.sh
+source;share/costmap_converter_msgs/local_setup.zsh

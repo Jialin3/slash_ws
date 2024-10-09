@@ -1,0 +1,44 @@
+[0.029s] Invoking command in '/home/jetson/slash_ws/build/vesc': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/vesc
+[0.126s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.221s] -- Check for working C compiler: /usr/bin/cc
+[0.346s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.347s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.483s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.625s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.776s] -- Detecting CXX compile features
+[0.777s] -- Detecting CXX compile features - done
+[0.781s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.827s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.142s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.314s] -- Configuring done
+[1.318s] -- Generating done
+[1.319s] -- Build files have been written to: /home/jetson/slash_ws/build/vesc
+[1.329s] Invoked command in '/home/jetson/slash_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/vesc
+[1.334s] Invoking command in '/home/jetson/slash_ws/build/vesc': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/vesc -- -j8 -l8
+[1.418s] Invoked command in '/home/jetson/slash_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/vesc -- -j8 -l8
+[1.463s] Invoking command in '/home/jetson/slash_ws/build/vesc': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/vesc
+[1.482s] -- Install configuration: ""
+[1.483s] -- Execute custom install script
+[1.484s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[1.504s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[1.522s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[1.540s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[1.558s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/path.sh
+[1.576s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/path.dsv
+[1.594s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.bash
+[1.613s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.sh
+[1.631s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.zsh
+[1.651s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.dsv
+[1.669s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/package.dsv
+[1.689s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[1.708s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[1.729s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[1.748s] -- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/package.xml
+[1.773s] Invoked command in '/home/jetson/slash_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/vesc

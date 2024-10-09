@@ -1,0 +1,43 @@
+[0.082s] Invoking command in '/home/jetson/slash_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[0.241s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.258s] [ 40%] Built target laserscan_to_pointcloud
+[0.278s] [ 60%] Built target laserscan_to_pointcloud_node
+[0.382s] [ 80%] Built target pointcloud_to_laserscan
+[0.476s] [100%] Built target dummy_pointcloud_publisher
+[0.506s] Invoked command in '/home/jetson/slash_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[0.741s] Invoking command in '/home/jetson/slash_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/pointcloud_to_laserscan
+[0.863s] -- Install configuration: ""
+[0.864s] -- Execute custom install script
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[0.864s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[0.865s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[0.865s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[0.865s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[0.865s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[0.865s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[0.866s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[0.867s] -- Symlinking: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[0.867s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[0.868s] -- Up-to-date symlink: /home/jetson/slash_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[0.924s] Invoked command in '/home/jetson/slash_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/pointcloud_to_laserscan

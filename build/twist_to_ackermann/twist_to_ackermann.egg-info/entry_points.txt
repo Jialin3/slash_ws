@@ -1,0 +1,3 @@
+[console_scripts]
+twist_to_ackermann_node = twist_to_ackermann.twist_to_ackermann_node:main
+

@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_localization/FAST_LIO:msg/Pose6D.msg"
+  ]
+}

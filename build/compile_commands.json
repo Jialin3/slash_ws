@@ -1,0 +1,59 @@
+[
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dlinefit_ground_segmentation_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -fPIC   -O3 -std=gnu++17 -o CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/ground_segmentation.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/ground_segmentation.cc"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dlinefit_ground_segmentation_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -fPIC   -O3 -std=gnu++17 -o CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/viewer.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/viewer.cc"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dlinefit_ground_segmentation_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -fPIC   -O3 -std=gnu++17 -o CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dlinefit_ground_segmentation_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -fPIC   -O3 -std=gnu++17 -o CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/bin.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/bin.cc"
+},
+
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /opt/ros/foxy/include -isystem /home/jetson/slash_ws/install/linefit_ground_segmentation/include      -O3 -std=gnu++17 -o CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_test_node.cc"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/linefit_ground_segmentation_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /opt/ros/foxy/include -isystem /home/jetson/slash_ws/install/linefit_ground_segmentation/include      -O3 -std=gnu++17 -o CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o -c /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc",
+  "file": "/home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc"
+},
+
+{
+  "directory": "/home/jetson/slash_ws/build/pointcloud_to_laserscan",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dlaserscan_to_pointcloud_EXPORTS -I/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3  -fPIC   -std=c++17 -O3 -o CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o -c /home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp",
+  "file": "/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/pointcloud_to_laserscan",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dpointcloud_to_laserscan_EXPORTS -I/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3  -fPIC   -std=c++17 -O3 -o CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o -c /home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp",
+  "file": "/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/pointcloud_to_laserscan",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include    -std=c++17 -O3 -o CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o -c /home/jetson/slash_ws/build/pointcloud_to_laserscan/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp",
+  "file": "/home/jetson/slash_ws/build/pointcloud_to_laserscan/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/pointcloud_to_laserscan",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include    -std=c++17 -O3 -o CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o -c /home/jetson/slash_ws/build/pointcloud_to_laserscan/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp",
+  "file": "/home/jetson/slash_ws/build/pointcloud_to_laserscan/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp"
+},
+{
+  "directory": "/home/jetson/slash_ws/build/pointcloud_to_laserscan",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3    -std=c++17 -O3 -o CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o -c /home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp",
+  "file": "/home/jetson/slash_ws/src/slash_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp"
+}
+]

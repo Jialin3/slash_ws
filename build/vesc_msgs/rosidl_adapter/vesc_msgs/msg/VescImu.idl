@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vesc_msgs/msg/VescImu.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module vesc_msgs {
+  module msg {
+    struct VescImu {
+      geometry_msgs::msg::Vector3 ypr;
+
+      geometry_msgs::msg::Vector3 linear_acceleration;
+
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      geometry_msgs::msg::Vector3 compass;
+
+      geometry_msgs::msg::Quaternion orientation;
+    };
+  };
+};

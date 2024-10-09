@@ -1,0 +1,8 @@
+source;share/vesc/hook/cmake_prefix_path.ps1
+source;share/vesc/hook/cmake_prefix_path.dsv
+source;share/vesc/hook/cmake_prefix_path.sh
+source;share/vesc/local_setup.bash
+source;share/vesc/local_setup.dsv
+source;share/vesc/local_setup.ps1
+source;share/vesc/local_setup.sh
+source;share/vesc/local_setup.zsh

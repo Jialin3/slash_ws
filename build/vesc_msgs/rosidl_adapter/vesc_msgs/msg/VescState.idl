@@ -1,0 +1,94 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vesc_msgs/msg/VescState.msg
+// generated code does not contain a copyright notice
+
+
+module vesc_msgs {
+  module msg {
+    module VescState_Constants {
+      const int32 FAULT_CODE_NONE = 0;
+      const int32 FAULT_CODE_OVER_VOLTAGE = 1;
+      const int32 FAULT_CODE_UNDER_VOLTAGE = 2;
+      const int32 FAULT_CODE_DRV8302 = 3;
+      const int32 FAULT_CODE_ABS_OVER_CURRENT = 4;
+      const int32 FAULT_CODE_OVER_TEMP_FET = 5;
+      const int32 FAULT_CODE_OVER_TEMP_MOTOR = 6;
+    };
+    @verbatim (language="comment", text=
+      " Vedder VESC open source motor controller state (telemetry)")
+    struct VescState {
+      @verbatim (language="comment", text=
+        " follow the bledc firwmare: commands.c" "\n"
+        " fet temperature")
+      double temp_fet;
+
+      @verbatim (language="comment", text=
+        " motor temperature")
+      double temp_motor;
+
+      @verbatim (language="comment", text=
+        " motor current (ampere) avg_motor_current")
+      double current_motor;
+
+      @verbatim (language="comment", text=
+        " input current (ampere) avg_input_current")
+      double current_input;
+
+      double avg_id;
+
+      double avg_iq;
+
+      @verbatim (language="comment", text=
+        " duty cycle (0 to 1) duty_cycle_now")
+      double duty_cycle;
+
+      @verbatim (language="comment", text=
+        " motor electrical speed (revolutions per minute) rpm")
+      double speed;
+
+      @verbatim (language="comment", text=
+        " input voltage (volt)")
+      double voltage_input;
+
+      @verbatim (language="comment", text=
+        " electric charge drawn from input (ampere-hours)")
+      double charge_drawn;
+
+      @verbatim (language="comment", text=
+        " electric charge regenerated to input (ampere-hour) amp_hours_charged")
+      double charge_regen;
+
+      @verbatim (language="comment", text=
+        " energy drawn from input (watt-hour)")
+      double energy_drawn;
+
+      @verbatim (language="comment", text=
+        " energy regenerated to input (watt_hours_charged)")
+      double energy_regen;
+
+      @verbatim (language="comment", text=
+        " net tachometer (counts) tachometer")
+      int32 displacement;
+
+      @verbatim (language="comment", text=
+        " total tachnometer (counts) tachometer_abs")
+      int32 distance_traveled;
+
+      int32 fault_code;
+
+      double pid_pos_now;
+
+      int32 controller_id;
+
+      double ntc_temp_mos1;
+
+      double ntc_temp_mos2;
+
+      double ntc_temp_mos3;
+
+      double avg_vd;
+
+      double avg_vq;
+    };
+  };
+};

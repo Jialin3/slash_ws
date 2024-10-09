@@ -1,0 +1,40 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "output_dir": "/home/jetson/slash_ws/build/teleop_tools_msgs/rosidl_generator_c/teleop_tools_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/jetson/slash_ws/build/teleop_tools_msgs/rosidl_adapter/teleop_tools_msgs:action/Increment.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/jetson/slash_ws/build/teleop_tools_msgs/rosidl_adapter/teleop_tools_msgs/action/Increment.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

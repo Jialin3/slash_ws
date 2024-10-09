@@ -1,0 +1,3 @@
+[console_scripts]
+key_teleop = key_teleop.key_teleop:main
+

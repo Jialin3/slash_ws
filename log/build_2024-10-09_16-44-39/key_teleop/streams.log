@@ -1,0 +1,17 @@
+[2.815s] Invoking command in '/home/jetson/slash_ws/build/key_teleop': PYTHONPATH=/home/jetson/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/key_teleop/build --no-deps symlink_data
+[3.336s] running develop
+[3.636s] running egg_info
+[3.636s] writing key_teleop.egg-info/PKG-INFO
+[3.637s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[3.637s] writing entry points to key_teleop.egg-info/entry_points.txt
+[3.637s] writing requirements to key_teleop.egg-info/requires.txt
+[3.637s] writing top-level names to key_teleop.egg-info/top_level.txt
+[3.710s] reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+[3.712s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[3.787s] running build_ext
+[3.790s] Creating /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+[3.793s] Installing key_teleop script to /home/jetson/slash_ws/install/key_teleop/lib/key_teleop
+[3.795s] 
+[3.796s] Installed /home/jetson/slash_ws/build/key_teleop
+[3.796s] running symlink_data
+[4.185s] Invoked command in '/home/jetson/slash_ws/build/key_teleop' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/key_teleop/build --no-deps symlink_data

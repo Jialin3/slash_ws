@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to f1tenth_stack.egg-info/entry_points.txt
+writing requirements to f1tenth_stack.egg-info/requires.txt
+writing top-level names to f1tenth_stack.egg-info/top_level.txt
+reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth-stack.egg-link (link to .)
+Installing tf_publisher script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+
+Installed /home/jetson/slash_ws/build/f1tenth_stack
+running symlink_data
+symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/MID360_config.json -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config

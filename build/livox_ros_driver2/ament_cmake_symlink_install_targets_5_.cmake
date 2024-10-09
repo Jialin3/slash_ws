@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/slash_ws/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__python.so" "TARGETS" "livox_interfaces2__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

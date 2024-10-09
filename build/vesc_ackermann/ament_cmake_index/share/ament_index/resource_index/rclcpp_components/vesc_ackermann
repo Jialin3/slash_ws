@@ -1,0 +1,2 @@
+vesc_ackermann::AckermannToVesc;lib/libvesc_ackermann.so
+vesc_ackermann::VescToOdom;lib/libvesc_ackermann.so

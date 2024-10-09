@@ -1,0 +1,9 @@
+source;share/twist_to_ackermann/hook/pythonpath.ps1
+source;share/twist_to_ackermann/hook/pythonpath.dsv
+source;share/twist_to_ackermann/hook/pythonpath.sh
+source;share/twist_to_ackermann/hook/ament_prefix_path.ps1
+source;share/twist_to_ackermann/hook/ament_prefix_path.dsv
+source;share/twist_to_ackermann/hook/ament_prefix_path.sh
+source;../../build/twist_to_ackermann/share/twist_to_ackermann/hook/pythonpath_develop.ps1
+source;../../build/twist_to_ackermann/share/twist_to_ackermann/hook/pythonpath_develop.dsv
+source;../../build/twist_to_ackermann/share/twist_to_ackermann/hook/pythonpath_develop.sh

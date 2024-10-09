@@ -1,0 +1,6 @@
+msg/FeedbackMsg.idl
+msg/FeedbackMsg.msg
+msg/TrajectoryMsg.idl
+msg/TrajectoryMsg.msg
+msg/TrajectoryPointMsg.idl
+msg/TrajectoryPointMsg.msg

@@ -1,0 +1,6 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/teleop_tools/teleop_tools_msgs:action/Increment.action"
+  ]
+}

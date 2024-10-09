@@ -5,10 +5,6 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 
-if(POLICY CMP0074)
-  cmake_policy(SET CMP0074 NEW)
-endif()
-
 ADD_COMPILE_OPTIONS(-std=c++14)
 ADD_COMPILE_OPTIONS(-std=c++14)
 set(CMAKE_CXX_FLAGS "-std=c++14 -O3")
@@ -22,17 +18,21 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pthread -std=c++0x -std=c++14 -fexceptions")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
+message("Current CPU archtecture: ${CMAKE_SYSTEM_PROCESSOR}")
 
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "(x86)|(X86)|(amd64)|(AMD64)")
   include(ProcessorCount)
   ProcessorCount(N)
+  message("Processer number:  ${N}")
 
   if(N GREATER 4)
     add_definitions(-DMP_EN)
     add_definitions(-DMP_PROC_NUM=3)
+    message("core for MP: 3")
   elseif(N GREATER 3)
     add_definitions(-DMP_EN)
     add_definitions(-DMP_PROC_NUM=2)
+    message("core for MP: 2")
   else()
     add_definitions(-DMP_PROC_NUM=1)
   endif()
@@ -79,6 +79,9 @@ set(dependencies
 # Thirdparty libraries
 find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common io)
+
+message(Eigen: ${EIGEN3_INCLUDE_DIR})
+message(STATUS "PCL: ${PCL_INCLUDE_DIRS}")
 
 set(msg_files
   "msg/Pose6D.msg"

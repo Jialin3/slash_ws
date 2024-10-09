@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from teb_msgs/msg/TrajectoryPointMsg.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+
+module teb_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Message that contains single point on a trajectory suited for mobile navigation." "\n"
+      " The trajectory is described by a sequence of poses, velocities," "\n"
+      " accelerations and temporal information.")
+    struct TrajectoryPointMsg {
+      @verbatim (language="comment", text=
+        " Why this message type?" "\n"
+        " nav_msgs/Path describes only a path without temporal information." "\n"
+        " trajectory_msgs package contains only messages for joint trajectories." "\n"
+        " The pose of the robot")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        " Corresponding velocity")
+      geometry_msgs::msg::Twist velocity;
+
+      @verbatim (language="comment", text=
+        " Corresponding acceleration")
+      geometry_msgs::msg::Twist acceleration;
+
+      builtin_interfaces::msg::Duration time_from_start;
+    };
+  };
+};

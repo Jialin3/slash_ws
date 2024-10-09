@@ -56,17 +56,9 @@
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 #include <std_srvs/srv/trigger.hpp>
-
-#include <tf2/LinearMath/Quaternion.h>
-#include <tf2_ros/transform_listener.h>
 #include <tf2_ros/transform_broadcaster.h>
-#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
-#include <tf2_ros/buffer.h>
-#include <tf2_ros/transform_broadcaster.h>
-
 #include <geometry_msgs/msg/transform_stamped.hpp>
 #include <geometry_msgs/msg/vector3.hpp>
-
 #include <livox_ros_driver2/msg/custom_msg.hpp>
 #include "preprocess.h"
 #include <ikd-Tree/ikd_Tree.h>
@@ -513,7 +505,7 @@ void publish_frame_world(rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::Share
         pcl::toROSMsg(*laserCloudWorld, laserCloudmsg);
         // laserCloudmsg.header.stamp = ros::Time().fromSec(lidar_end_time);
         laserCloudmsg.header.stamp = get_ros_time(lidar_end_time);
-        laserCloudmsg.header.frame_id = "lidar_odom";
+        laserCloudmsg.header.frame_id = "camera_init";
         pubLaserCloudFull->publish(laserCloudmsg);
         publish_count -= PUBFRAME_PERIOD;
     }
@@ -565,7 +557,7 @@ void publish_frame_body(rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::Shared
     sensor_msgs::msg::PointCloud2 laserCloudmsg;
     pcl::toROSMsg(*laserCloudIMUBody, laserCloudmsg);
     laserCloudmsg.header.stamp = get_ros_time(lidar_end_time);
-    laserCloudmsg.header.frame_id = "livox_frame";
+    laserCloudmsg.header.frame_id = "body";
     pubLaserCloudFull_body->publish(laserCloudmsg);
     publish_count -= PUBFRAME_PERIOD;
 }
@@ -582,7 +574,7 @@ void publish_effect_world(rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::Shar
     sensor_msgs::msg::PointCloud2 laserCloudFullRes3;
     pcl::toROSMsg(*laserCloudWorld, laserCloudFullRes3);
     laserCloudFullRes3.header.stamp = get_ros_time(lidar_end_time);
-    laserCloudFullRes3.header.frame_id = "lidar_odom";
+    laserCloudFullRes3.header.frame_id = "camera_init";
     pubLaserCloudEffect->publish(laserCloudFullRes3);
 }
 
@@ -602,9 +594,16 @@ void publish_map(rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub
 
     sensor_msgs::msg::PointCloud2 laserCloudmsg;
     pcl::toROSMsg(*pcl_wait_pub, laserCloudmsg);
+    // laserCloudmsg.header.stamp = ros::Time().fromSec(lidar_end_time);
     laserCloudmsg.header.stamp = get_ros_time(lidar_end_time);
-    laserCloudmsg.header.frame_id = "lidar_odom";
+    laserCloudmsg.header.frame_id = "camera_init";
     pubLaserCloudMap->publish(laserCloudmsg);
+
+    // sensor_msgs::msg::PointCloud2 laserCloudMap;
+    // pcl::toROSMsg(*featsFromMap, laserCloudMap);
+    // laserCloudMap.header.stamp = get_ros_time(lidar_end_time);
+    // laserCloudMap.header.frame_id = "camera_init";
+    // pubLaserCloudMap->publish(laserCloudMap);
 }
 
 void save_to_pcd()
@@ -626,13 +625,10 @@ void set_posestamp(T & out)
     
 }
 
-void publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr pubOdomAftMapped,
-                                std::unique_ptr<tf2_ros::TransformBroadcaster> & tf_br,
-                                std::unique_ptr<tf2_ros::Buffer> & tf_buffer_,
-                                rclcpp::Logger logger_)
+void publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr pubOdomAftMapped, std::unique_ptr<tf2_ros::TransformBroadcaster> & tf_br)
 {
-    odomAftMapped.header.frame_id = "lidar_odom";
-    odomAftMapped.child_frame_id = "livox_frame";
+    odomAftMapped.header.frame_id = "camera_init";
+    odomAftMapped.child_frame_id = "body";
     odomAftMapped.header.stamp = get_ros_time(lidar_end_time);
     set_posestamp(odomAftMapped.pose);
     pubOdomAftMapped->publish(odomAftMapped);
@@ -648,51 +644,30 @@ void publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPt
         odomAftMapped.pose.covariance[i*6 + 5] = P(k, 2);
     }
 
-  // Publish tf from lidar_odom to base_link
-  static geometry_msgs::msg::TransformStamped livox_to_base_link_transform;
-  static bool transform_acquired = false; // Check if the transform has already been acquired
-  if (!transform_acquired) {
-      // Get the transform from base_link to livox_frame
-      try {
-          livox_to_base_link_transform = tf_buffer_->lookupTransform("livox_frame", "base_link", odomAftMapped.header.stamp);
-          transform_acquired = true; // Set the flag to true indicating that the transform has been acquired
-      } catch (tf2::TransformException &ex) {
-          RCLCPP_ERROR(logger_, "Failed to lookup transform from base_link to livox_frame: %s", ex.what());
-          return;
-      }
-  }
-  
-  // Create a TransformStamped message for lidar_odom to base_link
-  geometry_msgs::msg::TransformStamped transform_stamped;
-  transform_stamped.header.stamp = odomAftMapped.header.stamp;
-  transform_stamped.header.frame_id = "lidar_odom";  // Source frame
-  transform_stamped.child_frame_id = "base_link";    // Target frame
-
-  // Calculate the transform from lidar_odom to base_link by multiplying the transforms
-  tf2::Transform tf_lidar_odom_to_livox_frame;
-  tf2::fromMsg(odomAftMapped.pose.pose, tf_lidar_odom_to_livox_frame);
-  tf2::Transform tf_livox_frame_to_base_link;
-  tf2::fromMsg(livox_to_base_link_transform.transform, tf_livox_frame_to_base_link);
-  tf2::Transform tf_lidar_odom_to_base_link =
-    tf_lidar_odom_to_livox_frame * tf_livox_frame_to_base_link;
-
-  // Convert the resulting transform back to geometry_msgs::TransformStamped
-  transform_stamped.transform = tf2::toMsg(tf_lidar_odom_to_base_link);
-
-  // Publish the tf
-  tf_br->sendTransform(transform_stamped);
+    geometry_msgs::msg::TransformStamped trans;
+    trans.header.frame_id = "camera_init";
+    trans.header.stamp = odomAftMapped.header.stamp;
+    trans.child_frame_id = "body";
+    trans.transform.translation.x = odomAftMapped.pose.pose.position.x;
+    trans.transform.translation.y = odomAftMapped.pose.pose.position.y;
+    trans.transform.translation.z = odomAftMapped.pose.pose.position.z;
+    trans.transform.rotation.w = odomAftMapped.pose.pose.orientation.w;
+    trans.transform.rotation.x = odomAftMapped.pose.pose.orientation.x;
+    trans.transform.rotation.y = odomAftMapped.pose.pose.orientation.y;
+    trans.transform.rotation.z = odomAftMapped.pose.pose.orientation.z;
+    tf_br->sendTransform(trans);
 }
 
 void publish_path(rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr pubPath)
 {
     set_posestamp(msg_body_pose);
     msg_body_pose.header.stamp = get_ros_time(lidar_end_time); // ros::Time().fromSec(lidar_end_time);
-    msg_body_pose.header.frame_id = "lidar_odom";
+    msg_body_pose.header.frame_id = "camera_init";
 
     /*** if path is too large, the rvis will crash ***/
-    // static int jjj = 0;
-    // jjj++;
-    // if (jjj % 10 == 0) 
+    static int jjj = 0;
+    jjj++;
+    if (jjj % 10 == 0) 
     {
         path.poses.push_back(msg_body_pose);
         pubPath->publish(path);
@@ -898,7 +873,7 @@ public:
         RCLCPP_INFO(this->get_logger(), "p_pre->lidar_type %d", p_pre->lidar_type);
 
         path.header.stamp = this->get_clock()->now();
-        path.header.frame_id ="lidar_odom";
+        path.header.frame_id ="camera_init";
 
         // /*** variables definition ***/
         // int effect_feat_num = 0, frame_num = 0;
@@ -958,10 +933,8 @@ public:
         pubLaserCloudMap_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/Laser_map", 20);
         pubOdomAftMapped_ = this->create_publisher<nav_msgs::msg::Odometry>("/Odometry", 20);
         pubPath_ = this->create_publisher<nav_msgs::msg::Path>("/path", 20);
-
-        tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
         tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
-        transform_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+
         //------------------------------------------------------------------------------------------------------
         auto period_ms = std::chrono::milliseconds(static_cast<int64_t>(1000.0 / 100.0));
         timer_ = rclcpp::create_timer(this, this->get_clock(), period_ms, std::bind(&LaserMappingNode::timer_callback, this));
@@ -970,11 +943,10 @@ public:
         map_pub_timer_ = rclcpp::create_timer(this, this->get_clock(), map_period_ms, std::bind(&LaserMappingNode::map_publish_callback, this));
 
        map_save_srv_ = this->create_service<std_srvs::srv::Trigger>(
-  "map_save",
-  [this](const std::shared_ptr<std_srvs::srv::Trigger::Request> req,
-         std::shared_ptr<std_srvs::srv::Trigger::Response> res) {
-    this->map_save_callback(req, res);
-  });
+    "map_save",
+    std::bind(&LaserMappingNode::map_save_callback, this,
+              std::placeholders::_1, std::placeholders::_2)
+);
 
         RCLCPP_INFO(this->get_logger(), "Node init finished.");
     }
@@ -1093,7 +1065,8 @@ private:
             double t_update_end = omp_get_wtime();
 
             /******* Publish odometry *******/
-            publish_odometry(pubOdomAftMapped_, tf_broadcaster_, tf_buffer_, this->get_logger());   
+            publish_odometry(pubOdomAftMapped_, tf_broadcaster_);
+
             /*** add the feature points to map kdtree ***/
             t3 = omp_get_wtime();
             map_incremental();
@@ -1143,20 +1116,22 @@ private:
         if (map_pub_en) publish_map(pubLaserCloudMap_);
     }
 
-    void map_save_callback(std_srvs::srv::Trigger::Request::ConstSharedPtr req, std_srvs::srv::Trigger::Response::SharedPtr res)
+    void map_save_callback(
+    const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+    std::shared_ptr<std_srvs::srv::Trigger::Response> response)
     {
-        RCLCPP_INFO(this->get_logger(), "Saving map to %s...", map_file_path.c_str());
-        if (pcd_save_en)
-        {
-            save_to_pcd();
-            res->success = true;
-            res->message = "Map saved.";
-        }
-        else
-        {
-            res->success = false;
-            res->message = "Map save disabled.";
-        }
+    RCLCPP_INFO(this->get_logger(), "Saving map to %s...", map_file_path.c_str());
+    if (pcd_save_en)
+    {
+        save_to_pcd();
+        response->success = true;
+        response->message = "Map saved.";
+    }
+    else
+    {
+        response->success = false;
+        response->message = "Map save disabled.";
+    }
     }
 
 private:
@@ -1170,9 +1145,7 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr sub_pcl_pc_;
     rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg>::SharedPtr sub_pcl_livox_;
 
-    std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
     std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
-    std::shared_ptr<tf2_ros::TransformListener> transform_listener_;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::TimerBase::SharedPtr map_pub_timer_;
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr map_save_srv_;

@@ -1,0 +1,2 @@
+pointcloud_to_laserscan::LaserScanToPointCloudNode;lib/liblaserscan_to_pointcloud.so
+pointcloud_to_laserscan::PointCloudToLaserScanNode;lib/libpointcloud_to_laserscan.so

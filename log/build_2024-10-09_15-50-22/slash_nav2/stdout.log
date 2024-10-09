@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/slash_nav2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_real.launch.py
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params.yaml
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.data
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.pgm
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.posegraph
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.yaml
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.data
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.pgm
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.posegraph
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUL.yaml
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUC.pcd
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/PCD/RMUL.pcd
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/fastlio.rviz
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/nav2.rviz
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/rviz/pointlio.rviz
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_real.xacro
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/urdf/sentry_robot_sim.xacro
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/package_run_dependencies/slash_nav2
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/parent_prefix_path/slash_nav2
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.sh
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/environment/path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.bash
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.sh
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.zsh
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/package.dsv
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/ament_index/resource_index/packages/slash_nav2
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config.cmake
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/cmake/slash_nav2Config-version.cmake
+-- Symlinking: /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/package.xml

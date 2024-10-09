@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: key-teleop
+Version: 0.3.0
+Summary: A text-based interface to send a robot movement commands.
+Home-page: https://github.com/ros-teleop/teleop_tools
+Author: Siegfried-A. Gevatter Pujals
+Author-email: siegfried.gevatter@pal-robotics.com
+Maintainer: Bence Magyar
+Maintainer-email: bence.magyar.robotics@gmail.com
+License: BSD
+Description:         key_teleop provides command-line interface to send Twist commands         to drive a robot around.
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

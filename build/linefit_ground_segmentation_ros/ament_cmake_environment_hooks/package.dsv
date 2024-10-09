@@ -1,0 +1,4 @@
+source;share/linefit_ground_segmentation_ros/local_setup.bash
+source;share/linefit_ground_segmentation_ros/local_setup.dsv
+source;share/linefit_ground_segmentation_ros/local_setup.sh
+source;share/linefit_ground_segmentation_ros/local_setup.zsh

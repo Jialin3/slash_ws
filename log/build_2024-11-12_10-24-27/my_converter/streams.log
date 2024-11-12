@@ -1,0 +1,18 @@
+[1.531s] Invoking command in '/home/jetson/slash_ws/build/my_converter': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data --force
+[1.983s] running develop
+[2.208s] running egg_info
+[2.209s] writing my_converter.egg-info/PKG-INFO
+[2.209s] writing dependency_links to my_converter.egg-info/dependency_links.txt
+[2.209s] writing entry points to my_converter.egg-info/entry_points.txt
+[2.210s] writing requirements to my_converter.egg-info/requires.txt
+[2.210s] writing top-level names to my_converter.egg-info/top_level.txt
+[2.261s] reading manifest file 'my_converter.egg-info/SOURCES.txt'
+[2.263s] writing manifest file 'my_converter.egg-info/SOURCES.txt'
+[2.322s] running build_ext
+[2.323s] Creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my-converter.egg-link (link to .)
+[2.324s] 
+[2.324s] Installed /home/jetson/slash_ws/build/my_converter
+[2.325s] running symlink_data
+[2.325s] symbolically linking /home/jetson/slash_ws/build/my_converter/resource/my_converter -> /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index/packages
+[2.325s] symbolically linking /home/jetson/slash_ws/build/my_converter/package.xml -> /home/jetson/slash_ws/install/my_converter/share/my_converter
+[2.453s] Invoked command in '/home/jetson/slash_ws/build/my_converter' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data --force

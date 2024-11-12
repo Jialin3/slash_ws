@@ -1,0 +1,155 @@
+[0.135s] Invoking command in '/home/jetson/slash_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/teleop_tools_msgs -- -j8 -l8
+[1.262s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.262s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.262s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.263s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.474s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.958s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.958s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.061s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.061s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[2.166s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.170s] -- Added test 'lint_cmake' to check CMake code style
+[2.172s] -- Added test 'xmllint' to check XML markup files
+[2.187s] -- Configuring done
+[2.313s] -- Generating done
+[2.321s] -- Build files have been written to: /home/jetson/slash_ws/build/teleop_tools_msgs
+[2.527s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_generator_c[0m
+[2.644s] [  3%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[2.654s] [  6%] Built target teleop_tools_msgs__cpp
+[2.682s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.753s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.759s] [  9%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[2.784s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_cpp[0m
+[2.890s] [ 12%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[2.917s] [ 16%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[3.370s] [ 19%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[3.657s] [ 22%] Built target teleop_tools_msgs__rosidl_generator_c
+[3.758s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c[0m
+[3.774s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c[0m
+[3.849s] [ 25%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[3.915s] [ 29%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[4.162s] [ 32%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.289s] [ 35%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[4.437s] [ 38%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[4.672s] [ 41%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.675s] [ 45%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[4.744s] [ 48%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[5.024s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[5.324s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[6.020s] [ 58%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.436s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[6.471s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.601s] [ 64%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[8.033s] [ 67%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.692s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[8.912s] [ 70%] Built target teleop_tools_msgs
+[9.120s] [ 74%] Built target teleop_tools_msgs__py
+[9.250s] [35m[1mScanning dependencies of target teleop_tools_msgs__python[0m
+[9.442s] [ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__python.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[10.332s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__python.so[0m
+[10.703s] [ 80%] Built target teleop_tools_msgs__python
+[10.760s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[10.804s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.844s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c__pyext[0m
+[10.866s] [ 83%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.948s] [ 87%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.978s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.431s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[11.491s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[11.593s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[11.674s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[11.703s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext
+[11.889s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.937s] Invoked command in '/home/jetson/slash_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/teleop_tools_msgs -- -j8 -l8
+[12.569s] Invoking command in '/home/jetson/slash_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/teleop_tools_msgs
+[12.632s] -- Install configuration: ""
+[12.632s] -- Execute custom install script
+[12.633s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs
+[12.639s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.h
+[12.639s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.h
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.h
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.h
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv
+[12.640s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h
+[12.641s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.641s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so
+[12.641s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__builder.hpp
+[12.642s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.hpp
+[12.643s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__traits.hpp
+[12.644s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.hpp
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.hpp
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py
+[12.645s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/__init__.py
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment.py
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs
+[12.646s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs
+[12.647s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh
+[12.647s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv
+[12.647s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh
+[12.647s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv
+[12.647s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash
+[12.649s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh
+[12.649s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh
+[12.649s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv
+[12.649s] -- Symlinking: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv
+[12.698s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs
+[12.698s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake
+[12.699s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.699s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.700s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.700s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.701s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.701s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.701s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake
+[12.702s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake
+[12.702s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml
+[12.707s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so
+[12.708s] -- Set runtime path of "/home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so" to ""
+[12.709s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so
+[12.709s] -- Set runtime path of "/home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.710s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so
+[12.710s] -- Set runtime path of "/home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""
+[12.711s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so
+[12.712s] -- Set runtime path of "/home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.713s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so
+[12.714s] -- Set runtime path of "/home/jetson/slash_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""
+[12.921s] Compiling '/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py'...
+[12.948s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport.cmake
+[12.950s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.950s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.950s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.950s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake
+[12.951s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.951s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cppExport.cmake
+[12.951s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.952s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.953s] -- Up-to-date: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake
+[12.960s] -- Installing: /home/jetson/slash_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.969s] Invoked command in '/home/jetson/slash_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/teleop_tools_msgs

@@ -1,4 +1,5 @@
 /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/launch/bringup_real.launch.py
+/home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_orin_params.yaml
 /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/config/nav2_params.yaml
 /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.data
 /home/jetson/slash_ws/install/slash_nav2/share/slash_nav2/map/RMUC.pgm

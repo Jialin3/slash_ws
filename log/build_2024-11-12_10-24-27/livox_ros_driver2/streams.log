@@ -1,0 +1,205 @@
+[0.495s] Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/livox_ros_driver2
+[0.524s] -- livox_ros_driver2 version: 1.0.0
+[0.525s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.565s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.881s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.014s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.360s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.362s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.159s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.314s] -- The imported target "vtkParseOGLExt" references the file
+[2.315s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.315s] but this file does not exist.  Possible reasons include:
+[2.315s] * The file was deleted, renamed, or moved to another location.
+[2.315s] * An install or uninstall procedure did not complete successfully.
+[2.315s] * The installation package was faulty and contained
+[2.316s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.316s] but not all the files it references.
+[2.317s] 
+[2.318s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.319s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.319s] but this file does not exist.  Possible reasons include:
+[2.319s] * The file was deleted, renamed, or moved to another location.
+[2.320s] * An install or uninstall procedure did not complete successfully.
+[2.320s] * The installation package was faulty and contained
+[2.322s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.322s] but not all the files it references.
+[2.323s] 
+[2.325s] -- The imported target "vtk" references the file
+[2.326s]    "/usr/bin/vtk"
+[2.326s] but this file does not exist.  Possible reasons include:
+[2.326s] * The file was deleted, renamed, or moved to another location.
+[2.326s] * An install or uninstall procedure did not complete successfully.
+[2.326s] * The installation package was faulty and contained
+[2.326s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.326s] but not all the files it references.
+[2.327s] 
+[2.327s] -- The imported target "pvtk" references the file
+[2.327s]    "/usr/bin/pvtk"
+[2.327s] but this file does not exist.  Possible reasons include:
+[2.327s] * The file was deleted, renamed, or moved to another location.
+[2.327s] * An install or uninstall procedure did not complete successfully.
+[2.327s] * The installation package was faulty and contained
+[2.327s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.327s] but not all the files it references.
+[2.327s] 
+[2.363s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.378s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.435s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.448s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.470s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[2.488s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.542s] /usr/include/apr-1.0
+[2.542s] apr-1
+[2.591s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.767s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.239s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.240s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.288s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.289s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.442s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.468s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.482s] -- Configured cppcheck include dirs: /home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src/3rdparty;/home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src/src
+[3.482s] -- Configured cppcheck exclude dirs and/or files: 
+[3.488s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.488s] -- Configured cpplint exclude dirs and/or files: 
+[3.492s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.492s] -- Added test 'lint_cmake' to check CMake code style
+[3.492s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.498s] -- Added test 'uncrustify' to check C / C++ code style
+[3.498s] -- Configured uncrustify additional arguments: 
+[3.499s] -- Added test 'xmllint' to check XML markup files
+[3.513s] -- Configuring done
+[3.715s] -- Generating done
+[3.722s] -- Build files have been written to: /home/jetson/slash_ws/build/livox_ros_driver2
+[3.817s] Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/livox_ros_driver2
+[3.821s] Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/livox_ros_driver2 -- -j8 -l8
+[3.938s] [  1%] Built target livox_interfaces2__cpp
+[3.941s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[3.953s] [ 12%] Built target livox_ros_driver2_node
+[3.999s] [ 19%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[4.004s] [ 26%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[4.029s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_c
+[4.035s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[4.040s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[4.087s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[4.127s] [ 54%] Built target livox_interfaces2
+[4.206s] [ 56%] Built target livox_interfaces2__py
+[4.248s] [ 84%] Built target livox_ros_driver2
+[4.282s] [ 89%] Built target livox_interfaces2__python
+[4.371s] [ 92%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[4.390s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[4.401s] [100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[4.804s] Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/livox_ros_driver2 -- -j8 -l8
+[5.044s] Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/livox_ros_driver2
+[5.284s] -- Install configuration: ""
+[5.285s] -- Execute custom install script
+[5.289s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[5.290s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.h
+[5.290s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.h
+[5.290s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[5.291s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.292s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[5.293s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/__init__.py
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg.py
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point.py
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.294s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud.rviz
+[5.295s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[5.296s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[5.297s] -- Symlinking: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[5.297s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.300s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[5.300s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[5.300s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.300s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.301s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.301s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[5.301s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[5.301s] -- Up-to-date symlink: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[5.301s] Compiling '/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py'...
+[5.301s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport.cmake
+[5.303s] -- Installing: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[5.303s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[5.303s] -- Installing: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.303s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[5.303s] -- Installing: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[5.303s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cppExport.cmake
+[5.303s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[5.303s] -- Installing: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.303s] -- Up-to-date: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[5.303s] -- Installing: /home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[5.314s] Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/livox_ros_driver2

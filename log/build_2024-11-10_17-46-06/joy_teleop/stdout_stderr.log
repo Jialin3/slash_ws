@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating joy_teleop.egg-info
+writing joy_teleop.egg-info/PKG-INFO
+writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+writing entry points to joy_teleop.egg-info/entry_points.txt
+writing requirements to joy_teleop.egg-info/requires.txt
+writing top-level names to joy_teleop.egg-info/top_level.txt
+writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/site.py
+Creating /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy-teleop.egg-link (link to .)
+Installing incrementer_server script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+Installing joy_teleop script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+
+Installed /home/jetson/slash_ws/build/joy_teleop
+running symlink_data
+symbolically linking /home/jetson/slash_ws/build/joy_teleop/package.xml -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop
+creating /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/config
+symbolically linking /home/jetson/slash_ws/build/joy_teleop/config/joy_teleop_example.yaml -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/config
+creating /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/launch
+symbolically linking /home/jetson/slash_ws/build/joy_teleop/launch/example.launch.py -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/launch
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/slash_ws/build/joy_teleop/resource/joy_teleop -> /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages

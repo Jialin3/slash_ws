@@ -1,0 +1,185 @@
+[0.118s] Invoking command in '/home/jetson/slash_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/jetson/slash_ws/src/slash_localization/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/fast_lio
+[0.227s] -- Current CPU architecture: aarch64
+[0.239s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[0.247s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.401s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.401s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.936s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.950s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.018s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.687s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.048s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.140s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.194s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.308s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.432s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.469s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.582s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[3.065s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.602s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.739s] -- The imported target "vtkParseOGLExt" references the file
+[3.740s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.740s] but this file does not exist.  Possible reasons include:
+[3.740s] * The file was deleted, renamed, or moved to another location.
+[3.740s] * An install or uninstall procedure did not complete successfully.
+[3.740s] * The installation package was faulty and contained
+[3.740s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.740s] but not all the files it references.
+[3.740s] 
+[3.741s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.741s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.741s] but this file does not exist.  Possible reasons include:
+[3.741s] * The file was deleted, renamed, or moved to another location.
+[3.741s] * An install or uninstall procedure did not complete successfully.
+[3.741s] * The installation package was faulty and contained
+[3.741s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.741s] but not all the files it references.
+[3.741s] 
+[3.742s] -- The imported target "vtk" references the file
+[3.742s]    "/usr/bin/vtk"
+[3.742s] but this file does not exist.  Possible reasons include:
+[3.742s] * The file was deleted, renamed, or moved to another location.
+[3.742s] * An install or uninstall procedure did not complete successfully.
+[3.742s] * The installation package was faulty and contained
+[3.742s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.743s] but not all the files it references.
+[3.743s] 
+[3.743s] -- The imported target "pvtk" references the file
+[3.743s]    "/usr/bin/pvtk"
+[3.743s] but this file does not exist.  Possible reasons include:
+[3.743s] * The file was deleted, renamed, or moved to another location.
+[3.743s] * An install or uninstall procedure did not complete successfully.
+[3.743s] * The installation package was faulty and contained
+[3.743s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.743s] but not all the files it references.
+[3.743s] 
+[3.778s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.790s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.820s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.832s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.851s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[3.866s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.233s] -- Found livox_ros_driver2: 1.0.0 (/home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[4.449s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.487s] -- Eigen path: /usr/include/eigen3
+[4.488s] -- PCL: /usr/include/pcl-1.10
+[4.583s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.350s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.187s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.369s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.369s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.370s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.370s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.755s] -- Configuring done
+[7.236s] -- Generating done
+[7.273s] -- Build files have been written to: /home/jetson/slash_ws/build/fast_lio
+[7.404s] Invoked command in '/home/jetson/slash_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/jetson/slash_ws/src/slash_localization/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/fast_lio
+[7.406s] Invoking command in '/home/jetson/slash_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jetson/slash_ws/build/fast_lio -- -j8 -l8
+[7.880s] [  8%] Built target fast_lio__rosidl_generator_c
+[7.886s] [ 11%] Built target fast_lio__cpp
+[8.100s] [ 20%] Built target fast_lio__rosidl_typesupport_introspection_c
+[8.112s] [ 28%] Built target fast_lio__rosidl_typesupport_c
+[8.162s] [ 37%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[8.294s] [ 45%] Built target fast_lio__rosidl_typesupport_cpp
+[8.329s] [ 54%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[8.614s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[8.791s] [ 62%] Built target fast_lio
+[9.023s] [ 65%] Built target fast_lio__py
+[9.077s] [ 77%] Built target fastlio_mapping
+[9.241s] [ 82%] Built target fast_lio__python
+[9.476s] [ 88%] Built target fast_lio__rosidl_typesupport_c__pyext
+[9.526s] [ 94%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[9.550s] [100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[9.627s] Invoked command in '/home/jetson/slash_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jetson/slash_ws/build/fast_lio -- -j8 -l8
+[10.597s] Invoking command in '/home/jetson/slash_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jetson/slash_ws/build/fast_lio
+[10.657s] -- Install configuration: "Release"
+[10.660s] -- Execute custom install script
+[10.661s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[10.667s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__functions.h
+[10.667s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__struct.h
+[10.668s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__type_support.h
+[10.669s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/pose6_d.h
+[10.670s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[10.670s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[10.671s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[10.674s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[10.688s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.689s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[10.691s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.692s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.693s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[10.694s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[10.695s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.697s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__builder.hpp
+[10.698s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__struct.hpp
+[10.699s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__traits.hpp
+[10.699s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__type_support.hpp
+[10.700s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/pose6_d.hpp
+[10.701s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.702s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[10.703s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[10.704s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[10.705s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/__init__.py
+[10.706s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/msg/__init__.py
+[10.723s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/msg/_pose6_d.py
+[10.723s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[10.723s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[10.726s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[10.727s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__python.so
+[10.728s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[10.730s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[10.730s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[10.732s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[10.732s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[10.733s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[10.734s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[10.734s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[10.736s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[10.736s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[10.738s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[10.738s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[10.739s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[10.740s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[10.741s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[10.742s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[10.743s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[10.744s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[10.745s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[10.746s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[10.747s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[10.747s] -- Symlinking: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/package.dsv
+[10.773s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[10.774s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[10.775s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.776s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[10.777s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[10.778s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.779s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.779s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.780s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[10.781s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[10.782s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/package.xml
+[10.786s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[10.786s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[10.786s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[10.786s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[10.787s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[10.987s] Compiling '/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/__init__.py'...
+[11.002s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cExport.cmake
+[11.003s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cExport-release.cmake
+[11.003s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[11.003s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[11.003s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[11.003s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[11.004s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cppExport.cmake
+[11.006s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[11.007s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[11.007s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[11.007s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[11.018s] Invoked command in '/home/jetson/slash_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jetson/slash_ws/build/fast_lio

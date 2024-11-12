@@ -1,0 +1,23 @@
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/vesc
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/path.sh
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/environment/path.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.bash
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.sh
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.zsh
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/package.dsv
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+-- Symlinking: /home/jetson/slash_ws/install/vesc/share/vesc/package.xml

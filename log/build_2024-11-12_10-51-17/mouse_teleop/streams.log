@@ -1,0 +1,17 @@
+[2.234s] Invoking command in '/home/jetson/slash_ws/build/mouse_teleop': PYTHONPATH=/home/jetson/slash_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/mouse_teleop/build --no-deps symlink_data
+[8.399s] running develop
+[8.399s] running egg_info
+[8.399s] writing mouse_teleop.egg-info/PKG-INFO
+[8.399s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[8.399s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[8.399s] writing requirements to mouse_teleop.egg-info/requires.txt
+[8.399s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[8.399s] reading manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[8.400s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[8.400s] running build_ext
+[8.400s] Creating /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse-teleop.egg-link (link to .)
+[8.400s] Installing mouse_teleop script to /home/jetson/slash_ws/install/mouse_teleop/lib/mouse_teleop
+[8.400s] 
+[8.400s] Installed /home/jetson/slash_ws/build/mouse_teleop
+[8.400s] running symlink_data
+[8.530s] Invoked command in '/home/jetson/slash_ws/build/mouse_teleop' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/mouse_teleop/build --no-deps symlink_data

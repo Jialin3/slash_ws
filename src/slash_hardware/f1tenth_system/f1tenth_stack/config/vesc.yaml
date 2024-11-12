@@ -2,7 +2,7 @@
   # general parameters shared by all vesc-related nodes
   ros__parameters:
     # erpm (electrical rpm) = speed_to_erpm_gain * speed (meters / second) + speed_to_erpm_offset
-    speed_to_erpm_gain: 4614.0
+    speed_to_erpm_gain: 22000.0 #4614
     speed_to_erpm_offset: 0.0
 
     # servo value (0 to 1) =  steering_angle_to_servo_gain * steering angle (radians) + steering_angle_to_servo_offset
@@ -32,7 +32,7 @@ vesc_to_odom_node:
     odom_frame: metro_odom
     base_frame: base_link
     # publish odom to base link tf
-    publish_tf: true
+    publish_tf: false
     use_servo_cmd_to_calc_angular_velocity: true
     # car wheelbase is about 25cm
     wheelbase: .25

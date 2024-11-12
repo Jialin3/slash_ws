@@ -1,0 +1,197 @@
+[0.543s] Invoking command in '/home/jetson/slash_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/linefit_ground_segmentation
+[1.118s] -- The C compiler identification is GNU 9.4.0
+[1.119s] -- The CXX compiler identification is GNU 9.4.0
+[1.119s] -- Check for working C compiler: /usr/bin/cc
+[1.119s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.120s] -- Detecting C compiler ABI info
+[1.186s] -- Detecting C compiler ABI info - done
+[1.210s] -- Detecting C compile features
+[1.211s] -- Detecting C compile features - done
+[1.221s] -- Check for working CXX compiler: /usr/bin/c++
+[1.470s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.472s] -- Detecting CXX compiler ABI info
+[1.718s] -- Detecting CXX compiler ABI info - done
+[1.738s] -- Detecting CXX compile features
+[1.739s] -- Detecting CXX compile features - done
+[1.746s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.811s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.266s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.374s] -- Checking for module 'eigen3'
+[2.471s] --   Found eigen3, version 3.3.7
+[2.772s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.772s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.930s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.007s] -- Checking for module 'flann'
+[3.091s] --   Found flann, version 1.9.1
+[3.282s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.433s] -- The imported target "vtkParseOGLExt" references the file
+[3.434s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.434s] but this file does not exist.  Possible reasons include:
+[3.434s] * The file was deleted, renamed, or moved to another location.
+[3.434s] * An install or uninstall procedure did not complete successfully.
+[3.434s] * The installation package was faulty and contained
+[3.434s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.434s] but not all the files it references.
+[3.434s] 
+[3.436s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.436s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.436s] but this file does not exist.  Possible reasons include:
+[3.436s] * The file was deleted, renamed, or moved to another location.
+[3.436s] * An install or uninstall procedure did not complete successfully.
+[3.436s] * The installation package was faulty and contained
+[3.436s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.436s] but not all the files it references.
+[3.436s] 
+[3.437s] -- The imported target "vtk" references the file
+[3.437s]    "/usr/bin/vtk"
+[3.437s] but this file does not exist.  Possible reasons include:
+[3.437s] * The file was deleted, renamed, or moved to another location.
+[3.438s] * An install or uninstall procedure did not complete successfully.
+[3.438s] * The installation package was faulty and contained
+[3.438s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.438s] but not all the files it references.
+[3.438s] 
+[3.439s] -- The imported target "pvtk" references the file
+[3.439s]    "/usr/bin/pvtk"
+[3.439s] but this file does not exist.  Possible reasons include:
+[3.439s] * The file was deleted, renamed, or moved to another location.
+[3.439s] * An install or uninstall procedure did not complete successfully.
+[3.439s] * The installation package was faulty and contained
+[3.439s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.439s] but not all the files it references.
+[3.439s] 
+[3.522s] -- Checking for module 'libusb-1.0'
+[3.617s] --   Found libusb-1.0, version 1.0.23
+[3.879s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[4.290s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[4.291s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.920s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[4.920s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.921s] ** WARNING ** io features related to pcap will be disabled
+[4.921s] ** WARNING ** io features related to png will be disabled
+[4.965s] -- Found libusb-1.0: /usr/include  
+[4.972s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.003s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.033s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.211s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[5.211s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[5.231s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.256s] -- looking for PCL_COMMON
+[5.263s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[5.265s] -- looking for PCL_KDTREE
+[5.270s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[5.272s] -- looking for PCL_OCTREE
+[5.279s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[5.283s] -- looking for PCL_SEARCH
+[5.310s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[5.311s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.323s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[5.324s] -- looking for PCL_FILTERS
+[5.329s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[5.330s] -- looking for PCL_2D
+[5.331s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[5.332s] -- looking for PCL_GEOMETRY
+[5.335s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[5.336s] -- looking for PCL_IO
+[5.344s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[5.351s] -- looking for PCL_FEATURES
+[5.359s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[5.361s] -- looking for PCL_ML
+[5.368s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[5.370s] -- looking for PCL_SEGMENTATION
+[5.375s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[5.384s] -- looking for PCL_VISUALIZATION
+[5.399s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[5.401s] -- looking for PCL_SURFACE
+[5.410s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[5.415s] -- looking for PCL_REGISTRATION
+[5.432s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[5.441s] -- looking for PCL_KEYPOINTS
+[5.452s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[5.458s] -- looking for PCL_TRACKING
+[5.462s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[5.470s] -- looking for PCL_RECOGNITION
+[5.474s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[5.488s] -- looking for PCL_STEREO
+[5.491s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[5.491s] -- looking for PCL_APPS
+[5.512s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[5.515s] -- looking for PCL_IN_HAND_SCANNER
+[5.516s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[5.517s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.518s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[5.518s] -- looking for PCL_OUTOFCORE
+[5.536s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[5.536s] -- looking for PCL_PEOPLE
+[5.539s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.552s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[5.585s] -- Found Boost: /usr/include (found version "1.71.0")  
+[6.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.152s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.955s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.156s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.264s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.268s] -- Looking for pthread.h
+[11.215s] -- Looking for pthread.h - found
+[11.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.879s] -- Looking for pthread_create in pthreads
+[12.626s] -- Looking for pthread_create in pthreads - not found
+[12.627s] -- Looking for pthread_create in pthread
+[13.375s] -- Looking for pthread_create in pthread - found
+[13.376s] -- Found Threads: TRUE  
+[14.210s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[14.216s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[15.678s] -- Configuring done
+[15.784s] -- Generating done
+[15.806s] -- Build files have been written to: /home/jetson/slash_ws/build/linefit_ground_segmentation
+[15.916s] Invoked command in '/home/jetson/slash_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/linefit_ground_segmentation
+[15.917s] Invoking command in '/home/jetson/slash_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/linefit_ground_segmentation -- -j8 -l8
+[17.299s] [35m[1mScanning dependencies of target linefit_ground_segmentation[0m
+[17.299s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[17.299s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[17.299s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[17.299s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[56.714s] [100%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[57.822s] [100%] Built target linefit_ground_segmentation
+[57.867s] Invoked command in '/home/jetson/slash_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/linefit_ground_segmentation -- -j8 -l8
+[58.037s] Invoking command in '/home/jetson/slash_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/linefit_ground_segmentation
+[68.801s] -- Install configuration: ""
+[68.802s] -- Execute custom install script
+[68.802s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[68.802s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[68.802s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[68.802s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[68.802s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[68.803s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[68.803s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[68.803s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[68.803s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[68.804s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[68.804s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[68.804s] -- Up-to-date symlink: /home/jetson/slash_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[68.804s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[68.804s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[68.804s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[68.804s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[68.804s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[68.805s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[68.805s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[68.811s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[68.812s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[68.812s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[68.812s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[68.812s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[68.812s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_targets-extras.cmake
+[68.813s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.813s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.813s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[68.813s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[68.813s] -- Symlinking: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[68.813s] -- Installing: /home/jetson/slash_ws/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[68.813s] -- Installing: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationExport.cmake
+[68.813s] -- Installing: /home/jetson/slash_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationExport-noconfig.cmake
+[68.849s] Invoked command in '/home/jetson/slash_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/linefit_ground_segmentation

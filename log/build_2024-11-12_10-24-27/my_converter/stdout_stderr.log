@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing my_converter.egg-info/PKG-INFO
+writing dependency_links to my_converter.egg-info/dependency_links.txt
+writing entry points to my_converter.egg-info/entry_points.txt
+writing requirements to my_converter.egg-info/requires.txt
+writing top-level names to my_converter.egg-info/top_level.txt
+reading manifest file 'my_converter.egg-info/SOURCES.txt'
+writing manifest file 'my_converter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my-converter.egg-link (link to .)
+
+Installed /home/jetson/slash_ws/build/my_converter
+running symlink_data
+symbolically linking /home/jetson/slash_ws/build/my_converter/resource/my_converter -> /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/slash_ws/build/my_converter/package.xml -> /home/jetson/slash_ws/install/my_converter/share/my_converter

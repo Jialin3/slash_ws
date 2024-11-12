@@ -1,0 +1,41 @@
+[2.049s] Invoking command in '/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/jetson/slash_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/mouse_teleop build --build-base /home/jetson/slash_ws/build/mouse_teleop/build install --record /home/jetson/slash_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data
+[2.536s] running egg_info
+[2.541s] creating ../../../../../build/mouse_teleop/mouse_teleop.egg-info
+[2.544s] writing ../../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[2.545s] writing dependency_links to ../../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[2.546s] writing entry points to ../../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[2.547s] writing requirements to ../../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[2.547s] writing top-level names to ../../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[2.550s] writing manifest file '../../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[2.668s] reading manifest file '../../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[2.669s] writing manifest file '../../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[2.670s] running build
+[2.670s] running build_py
+[2.671s] creating /home/jetson/slash_ws/build/mouse_teleop/build
+[2.671s] creating /home/jetson/slash_ws/build/mouse_teleop/build/lib
+[2.671s] creating /home/jetson/slash_ws/build/mouse_teleop/build/lib/mouse_teleop
+[2.672s] copying mouse_teleop/mouse_teleop.py -> /home/jetson/slash_ws/build/mouse_teleop/build/lib/mouse_teleop
+[2.673s] copying mouse_teleop/__init__.py -> /home/jetson/slash_ws/build/mouse_teleop/build/lib/mouse_teleop
+[2.673s] running install
+[2.676s] running install_lib
+[2.698s] creating /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[2.699s] copying /home/jetson/slash_ws/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[2.701s] copying /home/jetson/slash_ws/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[2.704s] byte-compiling /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-38.pyc
+[2.713s] byte-compiling /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/__init__.py to __init__.cpython-38.pyc
+[2.714s] running install_data
+[2.714s] copying package.xml -> /home/jetson/slash_ws/install/mouse_teleop/share/mouse_teleop
+[2.715s] creating /home/jetson/slash_ws/install/mouse_teleop/share/mouse_teleop/config
+[2.715s] copying config/mouse_teleop.yaml -> /home/jetson/slash_ws/install/mouse_teleop/share/mouse_teleop/config
+[2.716s] creating /home/jetson/slash_ws/install/mouse_teleop/share/mouse_teleop/launch
+[2.716s] copying launch/mouse_teleop.launch.py -> /home/jetson/slash_ws/install/mouse_teleop/share/mouse_teleop/launch
+[2.716s] creating /home/jetson/slash_ws/install/mouse_teleop/share/ament_index
+[2.716s] creating /home/jetson/slash_ws/install/mouse_teleop/share/ament_index/resource_index
+[2.716s] creating /home/jetson/slash_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[2.716s] copying resource/mouse_teleop -> /home/jetson/slash_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[2.717s] running install_egg_info
+[2.726s] Copying ../../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info
+[2.727s] running install_scripts
+[2.782s] Installing mouse_teleop script to /home/jetson/slash_ws/install/mouse_teleop/lib/mouse_teleop
+[2.783s] writing list of installed files to '/home/jetson/slash_ws/build/mouse_teleop/install.log'
+[2.893s] Invoked command in '/home/jetson/slash_ws/src/slash_hardware/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/mouse_teleop build --build-base /home/jetson/slash_ws/build/mouse_teleop/build install --record /home/jetson/slash_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/livox_ros_driver2
+Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/livox_ros_driver2/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/livox_ros_driver2
+Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/livox_ros_driver2 -- -j8 -l8
+Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/livox_ros_driver2 -- -j8 -l8
+Invoking command in '/home/jetson/slash_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/livox_ros_driver2
+Invoked command in '/home/jetson/slash_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/livox_ros_driver2

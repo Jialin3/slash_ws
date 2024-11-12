@@ -1,0 +1,36 @@
+running develop
+running egg_info
+writing ../../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+writing requirements to ../../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+writing top-level names to ../../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+reading manifest file '../../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/slash_ws/build/key_teleop/build
+creating /home/jetson/slash_ws/build/key_teleop/build/lib
+creating /home/jetson/slash_ws/build/key_teleop/build/lib/key_teleop
+copying key_teleop/key_teleop.py -> /home/jetson/slash_ws/build/key_teleop/build/lib/key_teleop
+copying key_teleop/__init__.py -> /home/jetson/slash_ws/build/key_teleop/build/lib/key_teleop
+running install
+running install_lib
+creating /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+copying /home/jetson/slash_ws/build/key_teleop/build/lib/key_teleop/key_teleop.py -> /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+copying /home/jetson/slash_ws/build/key_teleop/build/lib/key_teleop/__init__.py -> /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+byte-compiling /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/jetson/slash_ws/install/key_teleop/share/key_teleop
+creating /home/jetson/slash_ws/install/key_teleop/share/key_teleop/config
+copying config/key_teleop.yaml -> /home/jetson/slash_ws/install/key_teleop/share/key_teleop/config
+creating /home/jetson/slash_ws/install/key_teleop/share/ament_index
+creating /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index
+creating /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+copying resource/key_teleop -> /home/jetson/slash_ws/install/key_teleop/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../../build/key_teleop/key_teleop.egg-info to /home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+running install_scripts
+Installing key_teleop script to /home/jetson/slash_ws/install/key_teleop/lib/key_teleop
+writing list of installed files to '/home/jetson/slash_ws/build/key_teleop/install.log'

@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../../../build/joy_teleop/joy_teleop.egg-info
+writing ../../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+writing requirements to ../../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+writing top-level names to ../../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+writing manifest file '../../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/slash_ws/build/joy_teleop/build
+creating /home/jetson/slash_ws/build/joy_teleop/build/lib
+creating /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop
+copying joy_teleop/joy_teleop.py -> /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop
+copying joy_teleop/incrementer_server.py -> /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop
+copying joy_teleop/__init__.py -> /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop
+running install
+running install_lib
+creating /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+copying /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+copying /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+copying /home/jetson/slash_ws/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+byte-compiling /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop
+creating /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/config
+copying config/joy_teleop_example.yaml -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/config
+creating /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/launch
+copying launch/example.launch.py -> /home/jetson/slash_ws/install/joy_teleop/share/joy_teleop/launch
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index
+creating /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages
+copying resource/joy_teleop -> /home/jetson/slash_ws/install/joy_teleop/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../../build/joy_teleop/joy_teleop.egg-info to /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info
+running install_scripts
+Installing incrementer_server script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+Installing joy_teleop script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+writing list of installed files to '/home/jetson/slash_ws/build/joy_teleop/install.log'

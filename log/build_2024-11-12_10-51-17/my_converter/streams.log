@@ -1,0 +1,16 @@
+[2.896s] Invoking command in '/home/jetson/slash_ws/build/my_converter': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data
+[3.901s] running develop
+[4.278s] running egg_info
+[4.279s] writing my_converter.egg-info/PKG-INFO
+[4.280s] writing dependency_links to my_converter.egg-info/dependency_links.txt
+[4.281s] writing entry points to my_converter.egg-info/entry_points.txt
+[4.288s] writing requirements to my_converter.egg-info/requires.txt
+[4.294s] writing top-level names to my_converter.egg-info/top_level.txt
+[4.415s] reading manifest file 'my_converter.egg-info/SOURCES.txt'
+[4.416s] writing manifest file 'my_converter.egg-info/SOURCES.txt'
+[4.556s] running build_ext
+[4.557s] Creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my-converter.egg-link (link to .)
+[4.560s] 
+[4.561s] Installed /home/jetson/slash_ws/build/my_converter
+[4.576s] running symlink_data
+[4.754s] Invoked command in '/home/jetson/slash_ws/build/my_converter' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data

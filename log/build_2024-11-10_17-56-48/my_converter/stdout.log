@@ -1,0 +1,31 @@
+running develop
+Removing /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my-converter.egg-link (link to .)
+running egg_info
+writing ../build/my_converter/my_converter.egg-info/PKG-INFO
+writing dependency_links to ../build/my_converter/my_converter.egg-info/dependency_links.txt
+writing entry points to ../build/my_converter/my_converter.egg-info/entry_points.txt
+writing requirements to ../build/my_converter/my_converter.egg-info/requires.txt
+writing top-level names to ../build/my_converter/my_converter.egg-info/top_level.txt
+reading manifest file '../build/my_converter/my_converter.egg-info/SOURCES.txt'
+writing manifest file '../build/my_converter/my_converter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/slash_ws/build/my_converter/build
+creating /home/jetson/slash_ws/build/my_converter/build/lib
+creating /home/jetson/slash_ws/build/my_converter/build/lib/my_converter
+copying my_converter/twist_to_ackermann_node.py -> /home/jetson/slash_ws/build/my_converter/build/lib/my_converter
+copying my_converter/__init__.py -> /home/jetson/slash_ws/build/my_converter/build/lib/my_converter
+running install
+running install_lib
+creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter
+copying /home/jetson/slash_ws/build/my_converter/build/lib/my_converter/twist_to_ackermann_node.py -> /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter
+copying /home/jetson/slash_ws/build/my_converter/build/lib/my_converter/__init__.py -> /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter
+byte-compiling /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter/twist_to_ackermann_node.py to twist_to_ackermann_node.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/my_converter -> /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/slash_ws/install/my_converter/share/my_converter
+running install_egg_info
+Copying ../build/my_converter/my_converter.egg-info to /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my_converter-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/jetson/slash_ws/build/my_converter/install.log'

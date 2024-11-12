@@ -59,6 +59,9 @@ livox_ros2_params = [
 ################### user configure parameters for ros2 end #####################
 
 def generate_launch_description():
+    slam_toolbox_mapping_file_dir = os.path.join(get_package_share_directory('f1tenth_stack'), 'config', 'f1tenth_online_async.yaml')
+    segmentation_params = os.path.join(get_package_share_directory('f1tenth_stack'), 'config', 'segmentation_real.yaml')
+
     joy_teleop_config = os.path.join(
         get_package_share_directory('f1tenth_stack'),
         'config',
@@ -161,6 +164,53 @@ def generate_launch_description():
         name='static_baselink_to_laser',
         arguments=['0.15', '0.0', '0.11', '0.0', '0.0', '0.0', 'base_link', 'livox_frame']
     )
+    static_tf_node_2 = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_baselink_to_laser',
+        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0','lidar_odom', 'camera_init']
+    )
+    static_tf_node_3 = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_baselink_to_laser',
+        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0','body', 'base_link']
+    )
+    bringup_linefit_ground_segmentation_node = Node(
+        package='linefit_ground_segmentation_ros',
+        executable='ground_segmentation_node',
+        output='screen',
+        parameters=[segmentation_params]
+    )
+    bringup_pointcloud_to_laserscan_node = Node(
+        package='pointcloud_to_laserscan', executable='pointcloud_to_laserscan_node',
+        remappings=[('cloud_in',  ['/segmentation/obstacle']),
+                    ('scan',  ['/scan'])],
+        parameters=[{
+            'target_frame': 'livox_frame',
+            'transform_tolerance': 0.01,
+            'min_height': -1.0,
+            'max_height': 0.1,
+            'angle_min': -3.14159,  # -M_PI/2
+            'angle_max': 3.14159,   # M_PI/2
+            'angle_increment': 0.0043,  # M_PI/360.0
+            'scan_time': 0.3333,
+            'range_min': 0.45,
+            'range_max': 10.0,
+            'use_inf': True,
+            'inf_epsilon': 1.0
+        }],
+        name='pointcloud_to_laserscan'
+    )
+    start_mapping = Node(
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+        name='slam_toolbox',
+        parameters=[
+            slam_toolbox_mapping_file_dir,
+            {'use_sim_time': False,}
+        ],
+    )
 
     # finalize
     ld.add_action(joy_node)
@@ -172,6 +222,12 @@ def generate_launch_description():
     # ld.add_action(urg_node)
     ld.add_action(ackermann_mux_node)
     ld.add_action(static_tf_node)
+    ld.add_action(static_tf_node_2)
+    ld.add_action(static_tf_node_3)
     ld.add_action(livox_driver_node)
+    ld.add_action(bringup_linefit_ground_segmentation_node)
+    ld.add_action(bringup_pointcloud_to_laserscan_node)
+    ld.add_action(start_mapping)
+    
 
     return ld

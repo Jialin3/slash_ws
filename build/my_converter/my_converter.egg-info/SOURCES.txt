@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+my_converter/__init__.py
+my_converter/twist_to_ackermann_node.py
+my_converter.egg-info/PKG-INFO
+my_converter.egg-info/SOURCES.txt
+my_converter.egg-info/dependency_links.txt
+my_converter.egg-info/entry_points.txt
+my_converter.egg-info/requires.txt
+my_converter.egg-info/top_level.txt
+my_converter.egg-info/zip-safe
+resource/my_converter

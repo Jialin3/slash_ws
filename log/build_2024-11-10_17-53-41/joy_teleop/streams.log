@@ -1,0 +1,18 @@
+[2.123s] Invoking command in '/home/jetson/slash_ws/build/joy_teleop': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/joy_teleop/build --no-deps symlink_data
+[2.596s] running develop
+[2.868s] running egg_info
+[2.875s] writing joy_teleop.egg-info/PKG-INFO
+[2.876s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[2.876s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[2.876s] writing requirements to joy_teleop.egg-info/requires.txt
+[2.876s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[2.911s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[2.915s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[3.000s] running build_ext
+[3.004s] Creating /home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages/joy-teleop.egg-link (link to .)
+[3.005s] Installing incrementer_server script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+[3.005s] Installing joy_teleop script to /home/jetson/slash_ws/install/joy_teleop/lib/joy_teleop
+[3.005s] 
+[3.005s] Installed /home/jetson/slash_ws/build/joy_teleop
+[3.005s] running symlink_data
+[3.139s] Invoked command in '/home/jetson/slash_ws/build/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/joy_teleop/build --no-deps symlink_data

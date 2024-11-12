@@ -1,0 +1,86 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found costmap_converter: 0.1.2 (/home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found dwb_critics: 0.4.7 (/opt/ros/foxy/share/dwb_critics/cmake)
+-- Found teb_msgs: 0.0.1 (/home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake)
+-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- System: Linux-5.10.216-tegra
+-- /opt/ros/foxy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/foxy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/foxy/share/fastrtps_cmake_module/cmake/Modules;/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/cmake_modules
+-- Found SuiteSparse
+-- Searching for g2o ...
+-- Found g2o headers in: /opt/ros/foxy/include/g2o
+-- Found libg2o: /opt/ros/foxy/lib/libg2o_csparse_extension.so;/opt/ros/foxy/lib/libg2o_core.so;/opt/ros/foxy/lib/libg2o_stuff.so;/opt/ros/foxy/lib/libg2o_types_slam2d.so;/opt/ros/foxy/lib/libg2o_types_slam3d.so;/opt/ros/foxy/lib/libg2o_solver_cholmod.so;/opt/ros/foxy/lib/libg2o_solver_pcg.so;/opt/ros/foxy/lib/libg2o_solver_csparse.so;/opt/ros/foxy/lib/libg2o_incremental.so
+-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/teb_local_planner
+[100%] Built target teb_local_planner
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/lib/libteb_local_planner.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/distance_calculations.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/equivalence_relations.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/base_teb_edges.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_acceleration.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_kinematics.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_obstacle.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_prefer_rotdir.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_shortest_path.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_time_optimal.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_via_point.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/penalties.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_pose.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_timediff.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/graph_search.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/h_signature.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/misc.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/obstacles.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/optimal_planner.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/planner_interface.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/pose_se2.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/recovery_behaviors.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/robot_footprint_model.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/teb_config.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/teb_local_planner_ros.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/visualization.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/visualization.hpp
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner_plugin.xml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/lib/teb_local_planner/cmd_vel_to_ackermann_drive.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_nav2_bringup_launch.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_params.yaml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_tb3_simulation_launch.py
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_view.rviz
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner//teb_local_planner_plugin.xml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/package_run_dependencies/teb_local_planner
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/parent_prefix_path/teb_local_planner
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/packages/teb_local_planner
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/teb_local_planner
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/package.xml

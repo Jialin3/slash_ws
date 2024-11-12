@@ -72,7 +72,7 @@ VescToOdom::VescToOdom(const rclcpp::NodeOptions & options)
   publish_tf_ = declare_parameter("publish_tf", publish_tf_);
 
   // create odom publisher
-  odom_pub_ = create_publisher<Odometry>("odom", 10);
+  odom_pub_ = create_publisher<Odometry>("odom_metory", 10);
 
   // create tf broadcaster
   if (publish_tf_) {

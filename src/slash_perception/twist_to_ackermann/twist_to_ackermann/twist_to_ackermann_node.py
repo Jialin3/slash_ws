@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from ackermann_msgs.msg import AckermannDrive
+from ackermann_msgs.msg import AckermannDriveStamped
 
 class TwistToAckermannNode(Node):
     def __init__(self):
@@ -18,18 +18,18 @@ class TwistToAckermannNode(Node):
             cmd_vel_topic,
             self.twist_callback,
             10)
-        self.publisher = self.create_publisher(AckermannDrive, drive_topic, 10)
+        self.publisher = self.create_publisher(AckermannDriveStamped, drive_topic, 10)
         
         self.get_logger().info('Twist to Ackermann node initialized')
 
     def twist_callback(self, msg):
-        ackermann_msg = AckermannDrive()
-        ackermann_msg.speed = msg.linear.x
-        ackermann_msg.steering_angle = msg.angular.z  # TEB已经发布角度，而不是角速度
+        ackermann_msg = AckermannDriveStamped()
+        ackermann_msg.drive.speed = msg.linear.x
+        ackermann_msg.drive.steering_angle = msg.angular.z  # TEB已经发布角度，而不是角速度
         
         # 可以根据需要添加一些限制逻辑
-        ackermann_msg.speed = max(min(ackermann_msg.speed, 2.0), -2.0)  # 限制速度在 -2 到 2 m/s
-        ackermann_msg.steering_angle = max(min(ackermann_msg.steering_angle, 0.7), -0.7)  # 限制转向角在 -0.7 到 0.7 弧度
+        ackermann_msg.drive.speed = max(min(ackermann_msg.drive.speed, 2.0), -2.0)  # 限制速度在 -2 到 2 m/s
+        ackermann_msg.drive.steering_angle = max(min(ackermann_msg.drive.steering_angle, 0.7), -0.7)  # 限制转向角在 -0.7 到 0.7 弧度
         
         self.publisher.publish(ackermann_msg)
 

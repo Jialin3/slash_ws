@@ -1,0 +1,36 @@
+[3.282s] Invoking command in '/home/jetson/slash_ws/build/twist_to_ackermann': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/slash_ws/build/twist_to_ackermann/build
+[4.109s] running develop
+[4.652s] Removing /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist-to-ackermann.egg-link (link to .)
+[4.855s] Invoked command in '/home/jetson/slash_ws/build/twist_to_ackermann' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/slash_ws/build/twist_to_ackermann/build
+[4.857s] Invoking command in '/home/jetson/slash_ws/src/slash_perception/twist_to_ackermann': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/twist_to_ackermann build --build-base /home/jetson/slash_ws/build/twist_to_ackermann/build install --record /home/jetson/slash_ws/build/twist_to_ackermann/install.log --install-scripts $base/lib/twist_to_ackermann --single-version-externally-managed install_data --force
+[5.662s] running egg_info
+[5.663s] writing ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/PKG-INFO
+[5.664s] writing dependency_links to ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/dependency_links.txt
+[5.664s] writing entry points to ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/entry_points.txt
+[5.665s] writing requirements to ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/requires.txt
+[5.665s] writing top-level names to ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/top_level.txt
+[5.739s] reading manifest file '../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/SOURCES.txt'
+[5.740s] writing manifest file '../../../build/twist_to_ackermann/twist_to_ackermann.egg-info/SOURCES.txt'
+[5.740s] running build
+[5.741s] running build_py
+[5.741s] creating /home/jetson/slash_ws/build/twist_to_ackermann/build
+[5.741s] creating /home/jetson/slash_ws/build/twist_to_ackermann/build/lib
+[5.742s] creating /home/jetson/slash_ws/build/twist_to_ackermann/build/lib/twist_to_ackermann
+[5.742s] copying twist_to_ackermann/twist_to_ackermann_node.py -> /home/jetson/slash_ws/build/twist_to_ackermann/build/lib/twist_to_ackermann
+[5.742s] copying twist_to_ackermann/__init__.py -> /home/jetson/slash_ws/build/twist_to_ackermann/build/lib/twist_to_ackermann
+[5.742s] running install
+[5.744s] running install_lib
+[5.746s] creating /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann
+[5.747s] copying /home/jetson/slash_ws/build/twist_to_ackermann/build/lib/twist_to_ackermann/twist_to_ackermann_node.py -> /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann
+[5.747s] copying /home/jetson/slash_ws/build/twist_to_ackermann/build/lib/twist_to_ackermann/__init__.py -> /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann
+[5.748s] byte-compiling /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann/twist_to_ackermann_node.py to twist_to_ackermann_node.cpython-38.pyc
+[5.752s] byte-compiling /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann/__init__.py to __init__.cpython-38.pyc
+[5.752s] running install_data
+[5.753s] copying resource/twist_to_ackermann -> /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index/resource_index/packages
+[5.753s] copying package.xml -> /home/jetson/slash_ws/install/twist_to_ackermann/share/twist_to_ackermann
+[5.753s] running install_egg_info
+[5.763s] Copying ../../../build/twist_to_ackermann/twist_to_ackermann.egg-info to /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist_to_ackermann-0.0.0-py3.8.egg-info
+[5.763s] running install_scripts
+[5.804s] Installing twist_to_ackermann_node script to /home/jetson/slash_ws/install/twist_to_ackermann/lib/twist_to_ackermann
+[5.805s] writing list of installed files to '/home/jetson/slash_ws/build/twist_to_ackermann/install.log'
+[5.930s] Invoked command in '/home/jetson/slash_ws/src/slash_perception/twist_to_ackermann' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/twist_to_ackermann build --build-base /home/jetson/slash_ws/build/twist_to_ackermann/build install --record /home/jetson/slash_ws/build/twist_to_ackermann/install.log --install-scripts $base/lib/twist_to_ackermann --single-version-externally-managed install_data --force

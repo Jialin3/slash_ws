@@ -1,0 +1,35 @@
+[1.446s] Invoking command in '/home/jetson/slash_ws/build/f1tenth_stack': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/f1tenth_stack/build --no-deps symlink_data
+[1.940s] running develop
+[2.182s] running egg_info
+[2.182s] creating f1tenth_stack.egg-info
+[2.182s] writing f1tenth_stack.egg-info/PKG-INFO
+[2.183s] writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+[2.184s] writing entry points to f1tenth_stack.egg-info/entry_points.txt
+[2.184s] writing requirements to f1tenth_stack.egg-info/requires.txt
+[2.184s] writing top-level names to f1tenth_stack.egg-info/top_level.txt
+[2.189s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.279s] reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.282s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.354s] running build_ext
+[2.356s] Creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/site.py
+[2.361s] Creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth-stack.egg-link (link to .)
+[2.365s] Installing tf_publisher script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.366s] Installing throttle_interpolator script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.368s] 
+[2.368s] Installed /home/jetson/slash_ws/build/f1tenth_stack
+[2.368s] running symlink_data
+[2.369s] creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index
+[2.369s] creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index
+[2.370s] creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.371s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/resource/f1tenth_stack -> /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.371s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/package.xml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack
+[2.372s] creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.373s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/launch/bringup_launch.py -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.373s] creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.374s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/sensors.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.375s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/joy_teleop.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.375s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/segmentation_real.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.376s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/mux.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.376s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/vesc.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.377s] symbolically linking /home/jetson/slash_ws/build/f1tenth_stack/config/f1tenth_online_async.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[2.488s] Invoked command in '/home/jetson/slash_ws/build/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/f1tenth_stack/build --no-deps symlink_data

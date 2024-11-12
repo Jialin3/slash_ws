@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/slash_ws/build/teleop_tools
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/ament_index/resource_index/package_run_dependencies/teleop_tools
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/ament_index/resource_index/parent_prefix_path/teleop_tools
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/ament_index/resource_index/packages/teleop_tools
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/teleop_tools/share/teleop_tools/package.xml

@@ -1,0 +1,49 @@
+running egg_info
+creating ../../../../build/f1tenth_stack/f1tenth_stack.egg-info
+writing ../../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to ../../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+writing requirements to ../../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+writing top-level names to ../../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+writing manifest file '../../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/slash_ws/build/f1tenth_stack/build
+creating /home/jetson/slash_ws/build/f1tenth_stack/build/lib
+creating /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/throttle_interpolator.py -> /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/tf_publisher.py -> /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/__init__.py -> /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+running install
+running install_lib
+creating /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+copying /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack/throttle_interpolator.py -> /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+copying /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack/tf_publisher.py -> /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+copying /home/jetson/slash_ws/build/f1tenth_stack/build/lib/f1tenth_stack/__init__.py -> /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+byte-compiling /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/throttle_interpolator.py to throttle_interpolator.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/tf_publisher.py to tf_publisher.cpython-38.pyc
+byte-compiling /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+copying resource/f1tenth_stack -> /home/jetson/slash_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+copying launch/bringup_launch.py -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+creating /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/sensors.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/joy_teleop.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/segmentation_real.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/mux.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/vesc.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/f1tenth_online_async.yaml -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/MID360_config.json -> /home/jetson/slash_ws/install/f1tenth_stack/share/f1tenth_stack/config
+running install_egg_info
+Copying ../../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack-0.0.1-py3.8.egg-info
+running install_scripts
+Installing tf_publisher script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/jetson/slash_ws/install/f1tenth_stack/lib/f1tenth_stack
+writing list of installed files to '/home/jetson/slash_ws/build/f1tenth_stack/install.log'

@@ -1,0 +1,97 @@
+[0.135s] Invoking command in '/home/jetson/slash_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/vesc_ackermann
+[4.977s] -- The C compiler identification is GNU 9.4.0
+[4.977s] -- The CXX compiler identification is GNU 9.4.0
+[4.977s] -- Check for working C compiler: /usr/bin/cc
+[4.977s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.978s] -- Detecting C compiler ABI info
+[4.978s] -- Detecting C compiler ABI info - done
+[4.978s] -- Detecting C compile features
+[4.978s] -- Detecting C compile features - done
+[4.978s] -- Check for working CXX compiler: /usr/bin/c++
+[4.978s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.978s] -- Detecting CXX compiler ABI info
+[4.978s] -- Detecting CXX compiler ABI info - done
+[4.978s] -- Detecting CXX compile features
+[4.978s] -- Detecting CXX compile features - done
+[4.978s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[4.979s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.979s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.979s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.979s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.979s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.979s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.043s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.058s] -- Looking for pthread.h
+[5.312s] -- Looking for pthread.h - found
+[5.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.705s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.706s] -- Looking for pthread_create in pthreads
+[6.126s] -- Looking for pthread_create in pthreads - not found
+[6.127s] -- Looking for pthread_create in pthread
+[6.577s] -- Looking for pthread_create in pthread - found
+[6.579s] -- Found Threads: TRUE  
+[7.912s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.982s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.986s] -- Configured cppcheck include dirs: /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_ackermann/include
+[7.986s] -- Configured cppcheck exclude dirs and/or files: 
+[7.989s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.990s] -- Configured cpplint exclude dirs and/or files: 
+[7.992s] -- Added test 'lint_cmake' to check CMake code style
+[7.995s] -- Added test 'uncrustify' to check C / C++ code style
+[7.995s] -- Configured uncrustify additional arguments: 
+[7.996s] -- Added test 'xmllint' to check XML markup files
+[8.014s] -- Configuring done
+[8.074s] -- Generating done
+[8.079s] -- Build files have been written to: /home/jetson/slash_ws/build/vesc_ackermann
+[8.143s] Invoked command in '/home/jetson/slash_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_hardware/f1tenth_system/vesc/vesc_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/vesc_ackermann
+[8.145s] Invoking command in '/home/jetson/slash_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/vesc_ackermann -- -j8 -l8
+[11.581s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[11.581s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[15.578s] [ 28%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[16.019s] [ 28%] Built target ackermann_to_vesc_node
+[16.088s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[16.250s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[29.534s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[46.330s] [ 71%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[47.509s] [ 71%] Built target vesc_ackermann
+[47.531s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[47.597s] [ 85%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[52.416s] [100%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[52.681s] [100%] Built target vesc_to_odom_node
+[52.708s] Invoked command in '/home/jetson/slash_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/vesc_ackermann -- -j8 -l8
+[52.778s] Invoking command in '/home/jetson/slash_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/vesc_ackermann
+[52.799s] -- Install configuration: ""
+[52.799s] -- Execute custom install script
+[52.800s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[52.824s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[52.846s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[52.865s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[52.885s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[52.907s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[52.928s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[52.953s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[52.977s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[53.001s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[53.022s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[53.045s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[53.066s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[53.088s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[53.108s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[53.127s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[53.148s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[53.170s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[53.193s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[53.213s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[53.238s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[53.259s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[53.278s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.297s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.316s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[53.336s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[53.358s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[53.379s] -- Symlinking: /home/jetson/slash_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[53.422s] Invoked command in '/home/jetson/slash_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/vesc_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/vesc_ackermann

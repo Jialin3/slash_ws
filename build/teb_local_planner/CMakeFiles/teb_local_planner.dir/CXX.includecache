@@ -920,14 +920,6 @@ teb_local_planner/homotopy_class_planner.h
 limits
 -
 
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/obstacles.cpp
-teb_local_planner/obstacles.h
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_local_planner/obstacles.h
-rclcpp/logging.hpp
--
-rclcpp/logger.hpp
--
-
 /home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/optimal_planner.cpp
 tf2/time.h
 -
@@ -941,28 +933,6 @@ memory
 -
 limits
 -
-
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/recovery_behaviors.cpp
-teb_local_planner/recovery_behaviors.h
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_local_planner/recovery_behaviors.h
-rclcpp/rclcpp.hpp
--
-limits
--
-functional
--
-numeric
--
-g2o/stuff/misc.h
--
-
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_config.cpp
-functional
--
-nav2_util/node_utils.hpp
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/nav2_util/node_utils.hpp
-teb_local_planner/teb_config.h
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_local_planner/teb_config.h
 
 /home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp
 teb_local_planner/teb_local_planner_ros.h
@@ -997,10 +967,6 @@ tf2_geometry_msgs/tf2_geometry_msgs.h
 -
 tf2_eigen/tf2_eigen.h
 -
-
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/timed_elastic_band.cpp
-teb_local_planner/timed_elastic_band.h
-/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/teb_local_planner/timed_elastic_band.h
 
 /home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/src/visualization.cpp
 teb_local_planner/visualization.h
@@ -3924,12 +3890,6 @@ rclcpp/rclcpp.hpp
 
 /opt/ros/foxy/include/nav2_util/node_thread.hpp
 memory
--
-rclcpp/rclcpp.hpp
-/opt/ros/foxy/include/nav2_util/rclcpp/rclcpp.hpp
-
-/opt/ros/foxy/include/nav2_util/node_utils.hpp
-string
 -
 rclcpp/rclcpp.hpp
 /opt/ros/foxy/include/nav2_util/rclcpp/rclcpp.hpp

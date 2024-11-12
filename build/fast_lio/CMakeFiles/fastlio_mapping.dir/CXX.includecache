@@ -198,10 +198,6 @@ sensor_msgs/msg/imu.hpp
 nav_msgs/msg/odometry.hpp
 -
 
-/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/ikd-Tree/ikd_Tree.cpp
-ikd_Tree.h
-/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/ikd-Tree/ikd_Tree.h
-
 /home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/ikd-Tree/ikd_Tree.h
 stdio.h
 -
@@ -340,12 +336,6 @@ livox_ros_driver2/msg/custom_msg.hpp
 preprocess.h
 /home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h
 ikd-Tree/ikd_Tree.h
--
-
-/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp
-preprocess.h
-/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h
-pcl/common/common.h
 -
 
 /home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h

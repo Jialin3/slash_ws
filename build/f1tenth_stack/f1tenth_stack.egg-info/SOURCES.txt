@@ -5,6 +5,7 @@ config/MID360_config.json
 config/f1tenth_online_async.yaml
 config/joy_teleop.yaml
 config/mux.yaml
+config/segmentation_real.yaml
 config/sensors.yaml
 config/vesc.yaml
 f1tenth_stack/__init__.py

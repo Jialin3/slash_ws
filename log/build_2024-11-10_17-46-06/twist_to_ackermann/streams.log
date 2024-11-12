@@ -1,0 +1,25 @@
+[2.369s] Invoking command in '/home/jetson/slash_ws/build/twist_to_ackermann': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/twist_to_ackermann/build --no-deps symlink_data
+[3.162s] running develop
+[3.661s] running egg_info
+[3.661s] creating twist_to_ackermann.egg-info
+[3.668s] writing twist_to_ackermann.egg-info/PKG-INFO
+[3.669s] writing dependency_links to twist_to_ackermann.egg-info/dependency_links.txt
+[3.670s] writing entry points to twist_to_ackermann.egg-info/entry_points.txt
+[3.670s] writing requirements to twist_to_ackermann.egg-info/requires.txt
+[3.671s] writing top-level names to twist_to_ackermann.egg-info/top_level.txt
+[3.674s] writing manifest file 'twist_to_ackermann.egg-info/SOURCES.txt'
+[3.824s] reading manifest file 'twist_to_ackermann.egg-info/SOURCES.txt'
+[3.825s] writing manifest file 'twist_to_ackermann.egg-info/SOURCES.txt'
+[3.959s] running build_ext
+[3.961s] Creating /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/site.py
+[3.976s] Creating /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist-to-ackermann.egg-link (link to .)
+[3.978s] Installing twist_to_ackermann_node script to /home/jetson/slash_ws/install/twist_to_ackermann/lib/twist_to_ackermann
+[3.979s] 
+[3.980s] Installed /home/jetson/slash_ws/build/twist_to_ackermann
+[3.980s] running symlink_data
+[3.980s] creating /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index
+[3.980s] creating /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index/resource_index
+[3.980s] creating /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index/resource_index/packages
+[3.981s] symbolically linking /home/jetson/slash_ws/build/twist_to_ackermann/resource/twist_to_ackermann -> /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index/resource_index/packages
+[3.981s] symbolically linking /home/jetson/slash_ws/build/twist_to_ackermann/package.xml -> /home/jetson/slash_ws/install/twist_to_ackermann/share/twist_to_ackermann
+[4.646s] Invoked command in '/home/jetson/slash_ws/build/twist_to_ackermann' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/twist_to_ackermann/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/twist_to_ackermann/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing twist_to_ackermann.egg-info/PKG-INFO
+writing dependency_links to twist_to_ackermann.egg-info/dependency_links.txt
+writing entry points to twist_to_ackermann.egg-info/entry_points.txt
+writing requirements to twist_to_ackermann.egg-info/requires.txt
+writing top-level names to twist_to_ackermann.egg-info/top_level.txt
+reading manifest file 'twist_to_ackermann.egg-info/SOURCES.txt'
+writing manifest file 'twist_to_ackermann.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages/twist-to-ackermann.egg-link (link to .)
+Installing twist_to_ackermann_node script to /home/jetson/slash_ws/install/twist_to_ackermann/lib/twist_to_ackermann
+
+Installed /home/jetson/slash_ws/build/twist_to_ackermann
+running symlink_data
+symbolically linking /home/jetson/slash_ws/build/twist_to_ackermann/resource/twist_to_ackermann -> /home/jetson/slash_ws/install/twist_to_ackermann/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/slash_ws/build/twist_to_ackermann/package.xml -> /home/jetson/slash_ws/install/twist_to_ackermann/share/twist_to_ackermann

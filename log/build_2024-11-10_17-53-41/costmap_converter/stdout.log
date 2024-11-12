@@ -1,0 +1,45 @@
+[ 10%] Built target gtest_main
+[ 21%] Built target gtest
+[ 78%] Built target costmap_converter
+[ 89%] Built target standalone_converter
+[100%] Built target test_costmap_polygons
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/lib/libcostmap_converter.so
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/bin/standalone_converter
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/include//costmap_converter/misc.h
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+-- Symlinking: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/package.dsv
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/package.xml

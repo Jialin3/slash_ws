@@ -1,0 +1,374 @@
+[0.040s] Invoking command in '/home/jetson/slash_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jetson/slash_ws/build/fast_lio -- -j8 -l8
+[0.103s] Current CPU archtecture: aarch64
+[0.109s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[0.110s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.175s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.197s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.278s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.329s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.427s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.530s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.543s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.646s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[2.037s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.554s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.700s] -- The imported target "vtkParseOGLExt" references the file
+[2.701s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.702s] but this file does not exist.  Possible reasons include:
+[2.702s] * The file was deleted, renamed, or moved to another location.
+[2.702s] * An install or uninstall procedure did not complete successfully.
+[2.702s] * The installation package was faulty and contained
+[2.703s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.703s] but not all the files it references.
+[2.703s] 
+[2.703s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.703s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.704s] but this file does not exist.  Possible reasons include:
+[2.704s] * The file was deleted, renamed, or moved to another location.
+[2.704s] * An install or uninstall procedure did not complete successfully.
+[2.704s] * The installation package was faulty and contained
+[2.704s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.704s] but not all the files it references.
+[2.704s] 
+[2.704s] -- The imported target "vtk" references the file
+[2.704s]    "/usr/bin/vtk"
+[2.704s] but this file does not exist.  Possible reasons include:
+[2.705s] * The file was deleted, renamed, or moved to another location.
+[2.705s] * An install or uninstall procedure did not complete successfully.
+[2.705s] * The installation package was faulty and contained
+[2.705s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.705s] but not all the files it references.
+[2.705s] 
+[2.705s] -- The imported target "pvtk" references the file
+[2.705s]    "/usr/bin/pvtk"
+[2.705s] but this file does not exist.  Possible reasons include:
+[2.705s] * The file was deleted, renamed, or moved to another location.
+[2.706s] * An install or uninstall procedure did not complete successfully.
+[2.706s] * The installation package was faulty and contained
+[2.706s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.706s] but not all the files it references.
+[2.706s] 
+[2.740s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.753s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.786s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.799s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.820s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[2.833s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.204s] -- Found livox_ros_driver2: 1.0.0 (/home/jetson/slash_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[3.382s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.403s] CMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[3.403s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.403s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.403s]   command to set the policy and suppress this warning.
+[3.403s] 
+[3.404s]   CMake variable PCL_ROOT is set to:
+[3.404s] 
+[3.404s]     /usr
+[3.404s] 
+[3.404s]   For compatibility, CMake is ignoring the variable.
+[3.404s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.404s] 
+[3.415s] Eigen:/usr/include/eigen3
+[3.416s] -- PCL: /usr/include/pcl-1.10
+[3.483s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.754s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.053s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.054s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.119s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.120s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.120s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.120s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.248s] -- Configuring done
+[4.401s] -- Generating done
+[4.408s] -- Build files have been written to: /home/jetson/slash_ws/build/fast_lio
+[4.519s] [  2%] Built target fast_lio__cpp
+[4.548s] [35m[1mScanning dependencies of target fast_lio__rosidl_generator_c[0m
+[4.576s] [  5%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[4.847s] [  8%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[4.950s] [ 11%] Built target fast_lio__rosidl_generator_c
+[4.973s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_introspection_cpp[0m
+[4.999s] [ 14%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[5.596s] [ 17%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[5.670s] [ 20%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[5.694s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_introspection_c[0m
+[5.718s] [ 22%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[5.794s] [ 25%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[5.855s] [ 28%] Built target fast_lio__rosidl_typesupport_introspection_c
+[5.881s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_c[0m
+[5.907s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[5.975s] [ 34%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[6.051s] [ 37%] Built target fast_lio__rosidl_typesupport_c
+[6.077s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp[0m
+[6.106s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[6.947s] [ 42%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.136s] [ 45%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[7.164s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_cpp[0m
+[7.190s] [ 48%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[7.745s] [ 51%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[7.822s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[7.847s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_fastrtps_c[0m
+[7.875s] [ 57%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[8.581s] [ 60%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[8.769s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[8.814s] [ 62%] Built target fast_lio
+[8.852s] [35m[1mScanning dependencies of target fastlio_mapping[0m
+[8.975s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[23.438s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[23.438s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[23.438s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[23.438s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[23.439s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[23.439s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[23.439s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[23.439s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[23.439s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[23.439s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.439s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.439s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.439s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:83:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[23.439s]    83 |                                   intensity)(float, time, time)([01;35m[Kuint16_t[m[K, ring,
+[23.440s]       |                                                                 [01;35m[K^~~~~~~~[m[K
+[23.440s] 
+[23.440s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[23.440s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.440s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.440s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.440s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.440s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[23.440s]       |         [01;36m[K^~~~~~~~[m[K
+[23.469s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[23.469s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[23.469s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[23.469s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[23.469s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[23.470s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[23.470s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[23.470s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[23.470s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[23.470s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.470s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.470s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.470s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:131:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[23.470s]   131 |     ([01;35m[Kuint8_t[m[K, tag, tag)
+[23.470s]       |      [01;35m[K^~~~~~~[m[K
+[23.471s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[23.471s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.471s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.471s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.471s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.471s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[23.471s]       |         [01;36m[K^~~~~~~[m[K
+[23.471s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[23.471s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[23.471s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[23.472s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[23.472s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[23.472s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[23.472s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[23.472s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[23.472s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[23.472s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.472s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.472s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.472s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:132:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[23.472s]   132 |     ([01;35m[Kuint8_t[m[K, line, line)
+[23.473s]       |      [01;35m[K^~~~~~~[m[K
+[23.473s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[23.473s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+[23.473s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+[23.473s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[23.473s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.473s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[23.473s]       |         [01;36m[K^~~~~~~[m[K
+[127.780s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[138.481s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[138.482s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[138.482s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[138.482s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[138.482s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[138.482s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[138.482s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[138.482s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[138.483s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+[138.483s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.483s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.483s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.483s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:83:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[138.483s]    83 |                                   intensity)(float, time, time)([01;35m[Kuint16_t[m[K, ring,
+[138.483s]       |                                                                 [01;35m[K^~~~~~~~[m[K
+[138.483s] 
+[138.483s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+[138.483s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+[138.484s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.484s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.484s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.484s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[138.484s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[138.484s]       |         [01;36m[K^~~~~~~~[m[K
+[138.510s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[138.511s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[138.511s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[138.511s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[138.512s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[138.512s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[138.512s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[138.512s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[138.512s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+[138.512s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.512s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.512s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.512s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:131:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[138.512s]   131 |     ([01;35m[Kuint8_t[m[K, tag, tag)
+[138.513s]       |      [01;35m[K^~~~~~~[m[K
+[138.513s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+[138.513s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+[138.513s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.513s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.513s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.513s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[138.513s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[138.513s]       |         [01;36m[K^~~~~~~[m[K
+[138.514s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[138.514s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[138.514s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[138.514s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[138.514s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[138.514s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[138.514s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[138.514s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[138.514s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+[138.514s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.515s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.515s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.515s] [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:132:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[138.515s]   132 |     ([01;35m[Kuint8_t[m[K, line, line)
+[138.515s]       |      [01;35m[K^~~~~~~[m[K
+[138.515s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+[138.515s]                  from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+[138.515s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[138.515s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+[138.515s]                  from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[138.516s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[138.516s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[138.516s]       |         [01;36m[K^~~~~~~[m[K
+[145.851s] [ 71%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[149.066s] [ 74%] Built target fastlio_mapping
+[149.113s] [ 77%] Built target fast_lio__py
+[149.139s] [35m[1mScanning dependencies of target fast_lio__python[0m
+[149.172s] [ 80%] [32mBuilding C object CMakeFiles/fast_lio__python.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[149.429s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__python.so[0m
+[149.504s] [ 82%] Built target fast_lio__python
+[149.529s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext[0m
+[149.530s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext[0m
+[149.530s] [35m[1mScanning dependencies of target fast_lio__rosidl_typesupport_c__pyext[0m
+[149.570s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[149.572s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[149.573s] [ 91%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[149.775s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[149.778s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[149.779s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[149.859s] [100%] Built target fast_lio__rosidl_typesupport_c__pyext
+[149.867s] [100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[149.906s] [100%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[149.937s] Invoked command in '/home/jetson/slash_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jetson/slash_ws/build/fast_lio -- -j8 -l8
+[150.080s] Invoking command in '/home/jetson/slash_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jetson/slash_ws/build/fast_lio
+[150.104s] -- Install configuration: "Release"
+[150.104s] -- Execute custom install script
+[150.105s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[150.106s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__functions.h
+[150.106s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__struct.h
+[150.106s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__type_support.h
+[150.107s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/pose6_d.h
+[150.107s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[150.107s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[150.108s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[150.109s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[150.109s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[150.110s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[150.110s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[150.110s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[150.111s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[150.112s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[150.112s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[150.116s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__builder.hpp
+[150.116s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__struct.hpp
+[150.116s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__traits.hpp
+[150.116s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__type_support.hpp
+[150.116s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/pose6_d.hpp
+[150.117s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[150.117s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/include/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[150.118s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[150.118s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[150.119s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/__init__.py
+[150.119s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/msg/__init__.py
+[150.119s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/msg/_pose6_d.py
+[150.120s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[150.121s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[150.121s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[150.122s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__python.so
+[150.122s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[150.122s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[150.123s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[150.124s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[150.124s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[150.124s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[150.124s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[150.125s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[150.125s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[150.125s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[150.126s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[150.126s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[150.127s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[150.127s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[150.127s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[150.128s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[150.128s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[150.128s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[150.129s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[150.129s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[150.129s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[150.130s] -- Symlinking: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/package.dsv
+[150.152s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[150.152s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[150.152s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[150.153s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[150.153s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[150.153s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[150.154s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[150.154s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[150.154s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[150.154s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[150.155s] -- Up-to-date symlink: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/package.xml
+[150.155s] -- Installing: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[150.156s] -- Set runtime path of "/home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[150.156s] -- Installing: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[150.157s] -- Set runtime path of "/home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[150.158s] -- Installing: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[150.158s] -- Set runtime path of "/home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[150.158s] -- Installing: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[150.159s] -- Set runtime path of "/home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[150.159s] -- Installing: /home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[150.159s] -- Set runtime path of "/home/jetson/slash_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[150.242s] Compiling '/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages/fast_lio/__init__.py'...
+[150.256s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cExport.cmake
+[150.256s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cExport-release.cmake
+[150.257s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[150.257s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[150.257s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[150.257s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[150.257s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_generator_cppExport.cmake
+[150.258s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[150.258s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[150.259s] -- Up-to-date: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[150.260s] -- Installing: /home/jetson/slash_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[150.265s] Invoked command in '/home/jetson/slash_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/livox_ros_driver2:/home/jetson/slash_ws/install/vesc:/home/jetson/slash_ws/install/vesc_driver:/home/jetson/slash_ws/install/vesc_ackermann:/home/jetson/slash_ws/install/vesc_msgs:/home/jetson/slash_ws/install/teleop_tools:/home/jetson/slash_ws/install/teleop_tools_msgs:/home/jetson/slash_ws/install/teb_local_planner:/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/slash_nav2:/home/jetson/slash_ws/install/pointcloud_to_laserscan:/home/jetson/slash_ws/install/fast_lio:/home/jetson/slash_ws/install/linefit_ground_segmentation_ros:/home/jetson/slash_ws/install/linefit_ground_segmentation:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/home/jetson/slash_ws/install/ackermann_mux:/home/jetson/slash_ws/install/f1tenth_stack:/home/jetson/slash_ws/install/twist_to_ackermann:/home/jetson/slash_ws/install/joy_teleop:/home/jetson/slash_ws/install/my_converter:/home/jetson/slash_ws/install/mouse_teleop:/home/jetson/slash_ws/install/key_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib:/home/jetson/slash_ws/install/vesc_driver/lib:/home/jetson/slash_ws/install/vesc_ackermann/lib:/home/jetson/slash_ws/install/vesc_msgs/lib:/home/jetson/slash_ws/install/teleop_tools_msgs/lib:/home/jetson/slash_ws/install/teb_local_planner/lib:/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/pointcloud_to_laserscan/lib:/home/jetson/slash_ws/install/fast_lio/lib:/home/jetson/slash_ws/install/linefit_ground_segmentation/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/slash_ws/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/slash_ws/build/f1tenth_stack:/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/jetson/slash_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/twist_to_ackermann:/home/jetson/slash_ws/install/twist_to_ackermann/lib/python3.8/site-packages:/home/jetson/slash_ws/build/joy_teleop:/home/jetson/slash_ws/install/joy_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/build/my_converter:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:/home/jetson/slash_ws/build/mouse_teleop:/home/jetson/slash_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/fast_lio/lib/python3.8/site-packages:/home/jetson/slash_ws/build/key_teleop:/home/jetson/slash_ws/install/key_teleop/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jetson/slash_ws/build/fast_lio

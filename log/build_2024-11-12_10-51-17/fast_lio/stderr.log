@@ -1,0 +1,151 @@
+Current CPU archtecture: aarch64
+CMake Warning (dev) at CMakeLists.txt:81 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Eigen:/usr/include/eigen3
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:83:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 |                                   intensity)(float, time, time)([01;35m[Kuint16_t[m[K, ring,
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+
+In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+      |         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:131:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+  131 |     ([01;35m[Kuint8_t[m[K, tag, tag)
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+      |         [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:132:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+  132 |     ([01;35m[Kuint8_t[m[K, line, line)
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/include/common_lib.h:6[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/IMU_Processing.hpp:10[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+      |         [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:83:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 |                                   intensity)(float, time, time)([01;35m[Kuint16_t[m[K, ring,
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+
+In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+      |         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:131:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+  131 |     ([01;35m[Kuint8_t[m[K, tag, tag)
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+      |         [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:49[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:132:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+  132 |     ([01;35m[Kuint8_t[m[K, line, line)
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.h:3[m[K,
+                 from [01m[K/home/jetson/slash_ws/src/slash_localization/FAST_LIO/src/preprocess.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+      |         [01;36m[K^~~~~~~[m[K

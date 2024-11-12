@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/slash_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/costmap_converter_msgs -- -j8 -l8
+Invoked command in '/home/jetson/slash_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/slash_ws/build/costmap_converter_msgs -- -j8 -l8
+Invoking command in '/home/jetson/slash_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/costmap_converter_msgs
+Invoked command in '/home/jetson/slash_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/slash_ws/build/costmap_converter_msgs

@@ -1,0 +1,92 @@
+[0.042s] Invoking command in '/home/jetson/slash_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/teb_local_planner
+[0.067s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.455s] -- Found costmap_converter: 0.1.2 (/home/jetson/slash_ws/install/costmap_converter/share/costmap_converter/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.988s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.990s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.826s] -- Found dwb_critics: 0.4.7 (/opt/ros/foxy/share/dwb_critics/cmake)
+[9.338s] -- Found teb_msgs: 0.0.1 (/home/jetson/slash_ws/install/teb_msgs/share/teb_msgs/cmake)
+[9.508s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[9.513s] -- System: Linux-5.10.216-tegra
+[9.514s] -- /opt/ros/foxy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/foxy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/foxy/share/fastrtps_cmake_module/cmake/Modules;/home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner/cmake_modules
+[9.519s] -- Found SuiteSparse
+[9.519s] -- Searching for g2o ...
+[9.519s] -- Found g2o headers in: /opt/ros/foxy/include/g2o
+[9.520s] -- Found libg2o: /opt/ros/foxy/lib/libg2o_csparse_extension.so;/opt/ros/foxy/lib/libg2o_core.so;/opt/ros/foxy/lib/libg2o_stuff.so;/opt/ros/foxy/lib/libg2o_types_slam2d.so;/opt/ros/foxy/lib/libg2o_types_slam3d.so;/opt/ros/foxy/lib/libg2o_solver_cholmod.so;/opt/ros/foxy/lib/libg2o_solver_pcg.so;/opt/ros/foxy/lib/libg2o_solver_csparse.so;/opt/ros/foxy/lib/libg2o_incremental.so
+[23.938s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[24.059s] -- Configuring done
+[24.159s] -- Generating done
+[24.163s] -- Build files have been written to: /home/jetson/slash_ws/build/teb_local_planner
+[24.190s] Invoked command in '/home/jetson/slash_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/slash_ws/src/slash_navigation/teb_local_planner/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/slash_ws/install/teb_local_planner
+[24.199s] Invoking command in '/home/jetson/slash_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/teb_local_planner -- -j8 -l8
+[24.388s] [100%] Built target teb_local_planner
+[24.415s] Invoked command in '/home/jetson/slash_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/slash_ws/build/teb_local_planner -- -j8 -l8
+[24.486s] Invoking command in '/home/jetson/slash_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/teb_local_planner
+[24.502s] -- Install configuration: "Release"
+[24.503s] -- Execute custom install script
+[24.504s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/lib/libteb_local_planner.so
+[24.505s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/distance_calculations.h
+[24.505s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/equivalence_relations.h
+[24.506s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/base_teb_edges.h
+[24.506s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_acceleration.h
+[24.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+[24.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_kinematics.h
+[24.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_obstacle.h
+[24.507s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_prefer_rotdir.h
+[24.508s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_shortest_path.h
+[24.508s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_time_optimal.h
+[24.508s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity.h
+[24.509s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_via_point.h
+[24.509s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/penalties.h
+[24.509s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_pose.h
+[24.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_timediff.h
+[24.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/graph_search.h
+[24.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/h_signature.h
+[24.510s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.h
+[24.511s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.hpp
+[24.511s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/misc.h
+[24.511s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/obstacles.h
+[24.512s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/optimal_planner.h
+[24.512s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/planner_interface.h
+[24.512s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/pose_se2.h
+[24.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/recovery_behaviors.h
+[24.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/robot_footprint_model.h
+[24.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/teb_config.h
+[24.513s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/teb_local_planner_ros.h
+[24.514s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.h
+[24.514s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.hpp
+[24.514s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/visualization.h
+[24.515s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/include//teb_local_planner/visualization.hpp
+[24.515s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner_plugin.xml
+[24.516s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/lib/teb_local_planner/cmd_vel_to_ackermann_drive.py
+[24.517s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_nav2_bringup_launch.py
+[24.517s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_params.yaml
+[24.518s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_tb3_simulation_launch.py
+[24.518s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/launch/teb_view.rviz
+[24.519s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.sh
+[24.519s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.dsv
+[24.520s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner//teb_local_planner_plugin.xml
+[24.520s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/package_run_dependencies/teb_local_planner
+[24.521s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/parent_prefix_path/teb_local_planner
+[24.521s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.sh
+[24.522s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.dsv
+[24.522s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/path.sh
+[24.522s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/environment/path.dsv
+[24.523s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.bash
+[24.523s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.sh
+[24.524s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.zsh
+[24.524s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/local_setup.dsv
+[24.525s] -- Symlinking: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/package.dsv
+[24.541s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/packages/teb_local_planner
+[24.541s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/teb_local_planner
+[24.542s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.542s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[24.543s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.543s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig.cmake
+[24.543s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig-version.cmake
+[24.544s] -- Up-to-date symlink: /home/jetson/slash_ws/install/teb_local_planner/share/teb_local_planner/package.xml
+[24.549s] Invoked command in '/home/jetson/slash_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/slash_ws/install/teb_msgs:/home/jetson/slash_ws/install/costmap_converter:/home/jetson/slash_ws/install/costmap_converter_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/slash_ws/install/teb_msgs/lib:/home/jetson/slash_ws/install/costmap_converter/lib:/home/jetson/slash_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/jetson/slash_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/jetson/slash_ws/install/teb_msgs/lib/python3.8/site-packages:/home/jetson/slash_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/slash_ws/build/teb_local_planner

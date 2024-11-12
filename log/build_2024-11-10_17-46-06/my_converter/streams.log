@@ -1,0 +1,24 @@
+[3.176s] Invoking command in '/home/jetson/slash_ws/build/my_converter': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data
+[13.180s] running develop
+[13.180s] running egg_info
+[13.180s] creating my_converter.egg-info
+[13.180s] writing my_converter.egg-info/PKG-INFO
+[13.180s] writing dependency_links to my_converter.egg-info/dependency_links.txt
+[13.180s] writing entry points to my_converter.egg-info/entry_points.txt
+[13.180s] writing requirements to my_converter.egg-info/requires.txt
+[13.181s] writing top-level names to my_converter.egg-info/top_level.txt
+[13.181s] writing manifest file 'my_converter.egg-info/SOURCES.txt'
+[13.181s] reading manifest file 'my_converter.egg-info/SOURCES.txt'
+[13.181s] writing manifest file 'my_converter.egg-info/SOURCES.txt'
+[13.181s] running build_ext
+[13.181s] Creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/site.py
+[13.181s] Creating /home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages/my-converter.egg-link (link to .)
+[13.181s] 
+[13.181s] Installed /home/jetson/slash_ws/build/my_converter
+[13.181s] running symlink_data
+[13.181s] creating /home/jetson/slash_ws/install/my_converter/share/ament_index
+[13.182s] creating /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index
+[13.182s] creating /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index/packages
+[13.182s] symbolically linking /home/jetson/slash_ws/build/my_converter/resource/my_converter -> /home/jetson/slash_ws/install/my_converter/share/ament_index/resource_index/packages
+[13.182s] symbolically linking /home/jetson/slash_ws/build/my_converter/package.xml -> /home/jetson/slash_ws/install/my_converter/share/my_converter
+[13.226s] Invoked command in '/home/jetson/slash_ws/build/my_converter' returned '0': PYTHONPATH=/home/jetson/slash_ws/build/my_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/slash_ws/install/my_converter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/slash_ws/build/my_converter/build --no-deps symlink_data

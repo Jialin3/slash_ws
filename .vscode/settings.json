@@ -12,5 +12,6 @@
         "/home/jetson/slash_ws/build/f1tenth_stack",
         "/home/jetson/slash_ws/install/f1tenth_stack/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/jetson/slash_ws/src/slash_localization/FAST_LIO"
 }

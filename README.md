@@ -4,9 +4,9 @@ ubuntu22.04
 ROS2 humble
 1. 克隆仓库
    
-  ```sh
-    git clone --recursive https://github.com/Jialin3/slash_ws.git -b humble
-  ```
+    ```sh
+      git clone --recursive https://github.com/Jialin3/slash_ws.git -b humble
+    ```
 2. 安装依赖
     ```sh
     rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
@@ -35,7 +35,7 @@ ROS2 humble
     ros2 launch slash_gazebo gazebo.launch.py
     ```
 
-## 二. 图片
+## 二. 测试
 ![gazebo仿真](image/gazebo.jpg)
 
 

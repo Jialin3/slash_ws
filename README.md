@@ -35,4 +35,7 @@ ROS2 humble
     ros2 launch slash_gazebo gazebo.launch.py
     ```
 
+## 二. 图片
+![gazebo仿真](image/gazebo.jpg)
+
 

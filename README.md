@@ -1,7 +1,8 @@
 ## 一. 环境配置
-ARM64 (jetson orin nx)
-ubuntu22.04
-ROS2 humble
+ARM64 (jetson orin nx)\
+ubuntu22.04\
+ROS2 humble\
+Gazebo Sim Harmonic
 1. 克隆仓库
    
     ```sh

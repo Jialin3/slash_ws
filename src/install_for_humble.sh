@@ -20,4 +20,5 @@ sudo apt install -y ros-humble-ros-gzharmonic
 #安装navigation2
 sudo apt install -y ros-humble-navigation2 
 sudo apt install -y ros-humble-slam-toolbox
+sudo apt install -y ros-humble-nav2-bringup
 

@@ -7,7 +7,7 @@ def generate_launch_description():
 
     slam_params = {
         "use_sim_time": True,
-        "base_frame": "slash",
+        "base_frame": "saye",
         "odom_frame": "odom",
         "map_frame": "map"
     }
@@ -17,13 +17,12 @@ def generate_launch_description():
         parameters=[slam_params]
     )
 
-    rviz_cmd = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
+    robot_drive_cmd = Node(
+        package='rqt_robot_steering',
+        executable='rqt_robot_steering'
     )
 
     ld = LaunchDescription()
     ld.add_action(slam_cmd)
-    ld.add_action(rviz_cmd)
+    ld.add_action(robot_drive_cmd)
     return ld

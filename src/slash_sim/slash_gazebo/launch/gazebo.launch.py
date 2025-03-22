@@ -51,16 +51,16 @@ def generate_launch_description():
         output='screen'
     )
 
-    rviz_cmd = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        arguments=['-d', os.path.join(pkg_saye_description_, 'rviz', 'slash.rviz')],
-    )
+    # rviz_cmd = Node(
+    #     package='rviz2',
+    #     executable='rviz2',
+    #     name='rviz2',
+    #     arguments=['-d', os.path.join(pkg_saye_description_, 'rviz', 'slash.rviz')],
+    # )
 
     ld = LaunchDescription()
     ld.add_action(gz_sim)
     ld.add_action(robot_state_publisher)
     ld.add_action(bridge)
-    ld.add_action(rviz_cmd)
+    # ld.add_action(rviz_cmd)
     return ld

@@ -31,12 +31,18 @@ Gazebo Sim Harmonic
     source install/setup.bash
     ```
 
-4. 启动
+4. 启动\
+   gazebo仿真
     ```sh
     ros2 launch slash_gazebo gazebo.launch.py
+    ```
+    nav导航
+    ```sh
+    ros2 launch slash_nav nav.launch.py
     ```
 
 ## 二. 测试
 ![gazebo仿真](image/gazebo.jpg)
+![nav导航](image/nav.jpg)
 
 

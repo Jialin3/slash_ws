@@ -9,11 +9,11 @@ from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    pkg_slash_description_ = get_package_share_directory('slash_description')
+    pkg_saye_description_ = get_package_share_directory('saye_description')
     pkg_ros_gz_sim_ = get_package_share_directory('ros_gz_sim')
 
     # Load the SDF file from "description" package
-    sdf_file  =  os.path.join(pkg_slash_description_, 'models', 'slash', 'model.sdf')
+    sdf_file  =  os.path.join(pkg_saye_description_, 'models', 'saye', 'model.sdf')
     with open(sdf_file, 'r') as infp:
         robot_desc = infp.read()
 
@@ -22,9 +22,9 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(pkg_ros_gz_sim_, 'launch', 'gz_sim.launch.py')),
         launch_arguments={'gz_args': PathJoinSubstitution([
-            pkg_slash_description_,
+            pkg_saye_description_,
             'worlds',
-            'slash_world.sdf'
+            'saye_world.sdf'
         ])}.items(),
     )
 
@@ -45,14 +45,22 @@ def generate_launch_description():
         package='ros_gz_bridge',
         executable='parameter_bridge',
         parameters=[{
-            'config_file': os.path.join(pkg_slash_description_, 'config', 'ros_gz_bridge.yaml'),
+            'config_file': os.path.join(pkg_saye_description_, 'config', 'ros_gz_bridge.yaml'),
             'qos_overrides./tf_static.publisher.durability': 'transient_local',
         }],
         output='screen'
+    )
+
+    rviz_cmd = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', os.path.join(pkg_saye_description_, 'rviz', 'slash.rviz')],
     )
 
     ld = LaunchDescription()
     ld.add_action(gz_sim)
     ld.add_action(robot_state_publisher)
     ld.add_action(bridge)
+    ld.add_action(rviz_cmd)
     return ld

@@ -438,7 +438,12 @@
        </sensor>
     </link>
 
-
+    <joint name="sensor_joint" type="fixed">
+        <pose >0 0 0 0 0 0</pose>
+        <parent>base_link</parent>
+        <child>sensor_link</child>
+        <use_parent_model_frame>1</use_parent_model_frame>
+    </joint>
 
     <link name="front_left_wheel_link">
       <pose relative_to="front_left_wheel_joint">0 0 0 0 0 0</pose>

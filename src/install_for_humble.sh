@@ -6,6 +6,8 @@ sudo apt install -y ros-humble-robot-state-publisher
 sudo apt install -y ros-humble-ros-gz-sim
 sudo apt install -y ros-humble-ros-gz-bridge
 sudo apt install -y ros-humble-rqt-robot-steering 
+sudo apt install -y ros-humble-tf2-tools
+
 
 #安装gazebo harmonic
 sudo apt install -y curl lsb-release gnupg

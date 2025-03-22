@@ -15,3 +15,7 @@ sudo apt-get update
 # sudo apt-get -y install gz-harmonic
 sudo apt install -y ros-humble-ros-gzharmonic
 
+#安装navigation2
+sudo apt install -y ros-humble-navigation2 
+sudo apt install -y ros-humble-slam-toolbox
+

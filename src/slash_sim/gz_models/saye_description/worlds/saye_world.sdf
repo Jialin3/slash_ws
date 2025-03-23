@@ -100,164 +100,359 @@
     </include> -->
 
     <model name="out_box1">
-      <self_collide>true</self_collide>
-      <pose>0 1 0 0 0 0</pose>
+      <self_collide></self_collide>
+      <pose>0 1.5 0 0 0 0</pose>
       <include merge="true">
-          <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box2">
-      <self_collide>true</self_collide>
-      <pose>0.55 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>3.0 1.5 0 0 0 0</pose>
       <include merge="true">
-          <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box3">
-      <self_collide>true</self_collide>
-      <pose>0.55 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>6.0 1.5 0 0 0 0</pose>
       <include merge="true">
-          <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box4">
-      <self_collide>true</self_collide>
-      <pose>1.10 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>9.0 1.5 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box5">
-      <self_collide>true</self_collide>
-      <pose>1.65 1 0 0 0 0</pose>
+
+     <model name="out_box5">
+      <self_collide>false</self_collide>
+      <pose>10.0 2.5 0 0 0 1.5708</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box6">
-      <self_collide>true</self_collide>
-      <pose>2.20 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>10.0 4 0 0 0 1.5708</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box7">
-      <self_collide>true</self_collide>
-      <pose>2.75 1 0 0 0 0</pose>
+     <model name="out_box7">
+      <self_collide>false</self_collide>
+      <pose>10.0 6 0 0 0 1.5708</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box8">
-      <self_collide>true</self_collide>
-      <pose>3.30 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>10.0 8 0 0 0 1.5708</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
     <model name="out_box9">
-      <self_collide>true</self_collide>
-      <pose>3.85 1 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+      <pose>9 10 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box10">
-      <self_collide>true</self_collide>
-      <pose>4.40 1 0 0 0 0</pose>
+     <model name="out_box10">
+      <self_collide>false</self_collide>
+      <pose>7 10 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box11">
-      <self_collide>true</self_collide>
-      <pose>4.95 1 0 0 0 0</pose>
+     <model name="out_box11">
+      <self_collide>false</self_collide>
+      <pose>5 10 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box12">
-      <self_collide>true</self_collide>
-      <pose>5.50 1 0 0 0 0</pose>
+     <model name="out_box12">
+      <self_collide>false</self_collide>
+      <pose>3 10 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box13">
-      <self_collide>true</self_collide>
-      <pose>6.05 1 0 0 0 0</pose>
+     <model name="out_box13">
+      <self_collide>false</self_collide>
+      <pose>1 10 0 0 0 0</pose>
       <include merge="true">
-        <uri>model://cardboard_box/model.sdf</uri>
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
       </include>
     </model>
 
-    <model name="out_box14">
-  <self_collide>true</self_collide>
-  <pose>6.05 1 0 0 0 0</pose>
+     <model name="out_box14">
+      <self_collide>false</self_collide>
+      <pose>-1 10 0 0 0 0</pose>
+      <include merge="true">
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
+      </include>
+    </model>
+
+    <model name="out_box15">
+      <self_collide>false</self_collide>
+      <pose>-2 8 0 0 0 1.5708</pose>
+      <include merge="true">
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
+      </include>
+    </model>
+
+    <model name="out_box16">
+      <self_collide>false</self_collide>
+      <pose>-2 6 0 0 0 1.5708</pose>
+      <include merge="true">
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
+      </include>
+    </model>
+
+     <model name="out_box17">
+      <self_collide>false</self_collide>
+      <pose>-2 4 0 0 0 1.5708</pose>
+      <include merge="true">
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
+      </include>
+    </model>
+
+     <model name="out_box18">
+      <self_collide>false</self_collide>
+      <pose>-2 2.5 0 0 0 1.5708</pose>
+      <include merge="true">
+          <uri>model://brick_box_3x1x3/model.sdf</uri>
+      </include>
+    </model>
+    <!-- #下面是外圈 -->
+
+<model name="in_box1">
+  <self_collide>false</self_collide>
+  <pose>0 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box15">
-  <self_collide>true</self_collide>
-  <pose>6.05 1.55 0 0 0 0</pose>
+<model name="in_box2">
+  <self_collide>false</self_collide>
+  <pose>2 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box16">
-  <self_collide>true</self_collide>
-  <pose>5.78 2.05 0 0 0 0</pose>
+<model name="in_box3">
+  <self_collide>false</self_collide>
+  <pose>4 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box17">
-  <self_collide>true</self_collide>
-  <pose>5.30 2.45 0 0 0 0</pose>
+<model name="in_box4">
+  <self_collide>false</self_collide>
+  <pose>6 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box18">
-  <self_collide>true</self_collide>
-  <pose>4.65 2.70 0 0 0 0</pose>
+<model name="in_box5">
+  <self_collide>false</self_collide>
+  <pose>8 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box19">
-  <self_collide>true</self_collide>
-  <pose>4.00 2.80 0 0 0 0</pose>
+<model name="in_box6">
+  <self_collide>false</self_collide>
+  <pose>11 -2.0 0 0 0 0</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
 
-<model name="out_box20">
-  <self_collide>true</self_collide>
-  <pose>3.35 2.70 0 0 0 0</pose>
+<model name="in_box7">
+  <self_collide>false</self_collide>
+  <pose>13 -1.0 0 0 0 1.5</pose>
   <include merge="true">
-    <uri>model://cardboard_box/model.sdf</uri>
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
   </include>
 </model>
+
+<model name="in_box8">
+  <self_collide>false</self_collide>
+  <pose>13 2 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box9">
+  <self_collide>false</self_collide>
+  <pose>13 4 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box10">
+  <self_collide>false</self_collide>
+  <pose>13 6 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box11">
+  <self_collide>false</self_collide>
+  <pose>13 8 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box12">
+  <self_collide>false</self_collide>
+  <pose>13 11 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box13">
+  <self_collide>false</self_collide>
+  <pose>12 13 0 0 0 -0.11</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box14">
+  <self_collide>false</self_collide>
+  <pose>9 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box15">
+  <self_collide>false</self_collide>
+  <pose>7 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box16">
+  <self_collide>false</self_collide>
+  <pose>5 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box17">
+  <self_collide>false</self_collide>
+  <pose>3 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box18">
+  <self_collide>false</self_collide>
+  <pose>0 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box19">
+  <self_collide>false</self_collide>
+  <pose>-2.6 13 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box20">
+  <self_collide>false</self_collide>
+  <pose>-4.6 11 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box21">
+  <self_collide>false</self_collide>
+  <pose>-4.6 8 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box22">
+  <self_collide>false</self_collide>
+  <pose>-4.6 5 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box23">
+  <self_collide>false</self_collide>
+  <pose>-4.6 2 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box24">
+  <self_collide>false</self_collide>
+  <pose>-4.6 -1 0 0 0 1.57</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+<model name="in_box25">
+  <self_collide>false</self_collide>
+  <pose>-3 -2 0 0 0 0</pose>
+  <include merge="true">
+    <uri>model://brick_box_3x1x3/model.sdf</uri>
+  </include>
+</model>
+
+
+    
+
+   
+
+ 
+
+
 
 
 

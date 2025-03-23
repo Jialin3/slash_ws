@@ -144,11 +144,11 @@ controller_server:
       vx_std: 0.2
       vy_std: 0.2
       wz_std: 0.4
-      vx_max: 1.5
+      vx_max: 4.5
       vx_min: -1.50
       vy_max: 0.0
       wz_max: 2.0
-      ax_max: 1.0
+      ax_max: 3.0
       ax_min: -1.0
       ay_max: 3.0
       az_max: 3.5

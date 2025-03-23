@@ -47,6 +47,6 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     ld.add_action(navigation_cmd)
-    ld.add_action(rviz_cmd)
+    # ld.add_action(rviz_cmd)
     ld.add_action(saye_gazebo_cmd)
     return ld

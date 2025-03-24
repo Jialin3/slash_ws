@@ -37,7 +37,7 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <model name="ground_plane">
+    <!-- <model name="ground_plane">
       <static>true</static>
       <link name="link">
         <collision name="collision">
@@ -62,7 +62,7 @@
           </material>
         </visual>
       </link>
-    </model>
+    </model> -->
 
     <model name="saye">
       <self_collide>true</self_collide>
@@ -93,357 +93,246 @@
       </plugin>
     </model>
 
-    <include>
+    <!-- <include>
       <name>warehouse</name> 
       <pose>0 0 -1.0 0 0 0</pose>
       <uri>model://saye_description/worlds/warehouse/model.sdf</uri>
+    </include> -->
+
+      <!-- The staging area -->
+    <include>
+      <static>true</static>
+      <name>staging_area</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://subt_tunnel_staging_area/11/model.sdf</uri>
     </include>
 
-    <!-- <model name="out_box1">
-      <self_collide></self_collide>
-      <pose>0 1.5 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <!-- Barriers -->
+    <include>
+      <name>barrier_0_-1</name>
+      <pose>8.0 -11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box2">
-      <self_collide>false</self_collide>
-      <pose>3.0 1.5 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_0_1</name>
+      <pose>8.0 11 0 0 0 0 </pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box3">
-      <self_collide>false</self_collide>
-      <pose>6.0 1.5 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_1_-1</name>
+      <pose>3.7 -11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box4">
-      <self_collide>false</self_collide>
-      <pose>9.0 1.5 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_1_1</name>
+      <pose>3.7 11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
+    <include>
+      <name>barrier_2_-1</name>
+      <pose>-0.5999999999999996 -11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box5">
-      <self_collide>false</self_collide>
-      <pose>10.0 2.5 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_2_1</name>
+      <pose>-0.5999999999999996 11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box6">
-      <self_collide>false</self_collide>
-      <pose>10.0 4 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_3_-1</name>
+      <pose>-4.899999999999999 -11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box7">
-      <self_collide>false</self_collide>
-      <pose>10.0 6 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_3_1</name>
+      <pose>-4.899999999999999 11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box8">
-      <self_collide>false</self_collide>
-      <pose>10.0 8 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_4_-1</name>
+      <pose>-9.2 -11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box9">
-      <self_collide>false</self_collide>
-      <pose>9 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_4_1</name>
+      <pose>-9.2 11 0 0 0 0</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box10">
-      <self_collide>false</self_collide>
-      <pose>7 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-9.5_-2</name>
+      <pose>10.5 -8.6 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box11">
-      <self_collide>false</self_collide>
-      <pose>5 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-9.5_2</name>
+      <pose>10.5 8.6 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box12">
-      <self_collide>false</self_collide>
-      <pose>3 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-32_-2</name>
+      <pose>-12 -8.6 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box13">
-      <self_collide>false</self_collide>
-      <pose>1 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-32_-1</name>
+      <pose>-12 -4.3 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box14">
-      <self_collide>false</self_collide>
-      <pose>-1 10 0 0 0 0</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-32_0</name>
+      <pose>-12 0.0 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box15">
-      <self_collide>false</self_collide>
-      <pose>-2 8 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-32_1</name>
+      <pose>-12 4.3 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-    <model name="out_box16">
-      <self_collide>false</self_collide>
-      <pose>-2 6 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <include>
+      <name>barrier_-32_2</name>
+      <pose>-12 8.6 0 0 0 1.5707963267948966</pose>
+      <uri>model://jersey barrier/6/model.sdf </uri>
+    </include>
 
-     <model name="out_box17">
-      <self_collide>false</self_collide>
-      <pose>-2 4 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
+    <!-- The base station -->
+    <include>
+      <static>true</static>
+      <name>base_station</name>
+      <pose>-8 0 0 0 0 -1.5708</pose>
+      <uri>model://base station/9/model.sdf</uri>
+    </include>
 
-     <model name="out_box18">
-      <self_collide>false</self_collide>
-      <pose>-2 2.5 0 0 0 1.5708</pose>
-      <include merge="true">
-          <uri>model://brick_box_3x1x3/model.sdf</uri>
-      </include>
-    </model>
-    <! #下面是外圈 -->
+    <!-- Fiducial marking the origin for artifacts reports -->
+    <include>
+      <name>artifact_origin</name>
+      <pose>10.0 0.0 0.0 0 0 0</pose>
+      <uri>model://fiducial/4/model.sdf</uri>
+    </include>
 
-<!-- <model name="in_box1">
-  <self_collide>false</self_collide>
-  <pose>0 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <!-- Tunnel tiles and artifacts -->
+    <include>
+      <name>tile_1</name>
+      <uri>model://tunnel tile 2/16/model.sdf</uri>
+      <pose>40.000000 40.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box2">
-  <self_collide>false</self_collide>
-  <pose>2 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_2</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>60.000000 40.000000 0.000000 0 0 1.570796</pose>
+    </include>
 
-<model name="in_box3">
-  <self_collide>false</self_collide>
-  <pose>4 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>rescue_randy_1</name>
+      <uri>model://rescue randy sitting/8/model.sdf</uri>
+      <pose>54.000000 42.200000 0.004000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box4">
-  <self_collide>false</self_collide>
-  <pose>6 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_3</name>
+      <uri>model://tunnel tile 2/16/model.sdf</uri>
+      <pose>80.000000 40.000000 0.000000 0 0 4.712389</pose>
+    </include>
 
-<model name="in_box5">
-  <self_collide>false</self_collide>
-  <pose>8 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_4</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>40.000000 20.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box6">
-  <self_collide>false</self_collide>
-  <pose>11 -2.0 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_5</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>80.000000 20.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box7">
-  <self_collide>false</self_collide>
-  <pose>13 -1.0 0 0 0 1.5</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_6</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>20.000000 0.000000 0.000000 0 0 -1.570796</pose>
+    </include>
 
-<model name="in_box8">
-  <self_collide>false</self_collide>
-  <pose>13 2 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_7</name>
+      <uri>model://tunnel tile 1/4/model.sdf</uri>
+      <pose>40.000000 0.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box9">
-  <self_collide>false</self_collide>
-  <pose>13 4 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <!-- <include>
+      <name>drill_1</name>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Black and Decker Cordless Drill</uri>
+      <pose>34.000000 2.000000 0.004000 0 0 0.000000</pose>
+    </include> -->
 
-<model name="in_box10">
-  <self_collide>false</self_collide>
-  <pose>13 6 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_8</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>60.000000 0.000000 0.000000 0 0 1.570796</pose>
+    </include>
 
-<model name="in_box11">
-  <self_collide>false</self_collide>
-  <pose>13 8 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_9</name>
+      <uri>model://tunnel tile 1/4/model.sdf</uri>
+      <pose>80.000000 0.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box12">
-  <self_collide>false</self_collide>
-  <pose>13 11 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <!-- <include>
+      <name>tile_10</name>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile Blocker</uri>
+      <pose>86.000000 0.000000 0.000000 0 0 0.000000</pose>
+    </include> -->
 
-<model name="in_box13">
-  <self_collide>false</self_collide>
-  <pose>12 13 0 0 0 -0.11</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_11</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>40.000000 -20.000000 0.000000 0 0 3.141593</pose>
+    </include>
 
-<model name="in_box14">
-  <self_collide>false</self_collide>
-  <pose>9 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <!-- <include>
+      <name>extinguisher_1</name>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Fire Extinguisher</uri>
+      <pose>42.000000 -25.000000 0.004000 0 0 5.235988</pose>
+    </include> -->
 
-<model name="in_box15">
-  <self_collide>false</self_collide>
-  <pose>7 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_12</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>80.000000 -20.000000 0.000000 0 0 0.000000</pose>
+    </include>
 
-<model name="in_box16">
-  <self_collide>false</self_collide>
-  <pose>5 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_13</name>
+      <uri>model://tunnel tile 2/16/model.sdf</uri>
+      <pose>40.000000 -40.000000 0.000000 0 0 1.570796</pose>
+    </include>
 
-<model name="in_box17">
-  <self_collide>false</self_collide>
-  <pose>3 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
+    <include>
+      <name>tile_14</name>
+      <uri>model://tunnel tile 5/14/model.sdf</uri>
+      <pose>60.000000 -40.000000 0.000000 0 0 1.570796</pose>
+    </include>
 
-<model name="in_box18">
-  <self_collide>false</self_collide>
-  <pose>0 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box19">
-  <self_collide>false</self_collide>
-  <pose>-2.6 13 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box20">
-  <self_collide>false</self_collide>
-  <pose>-4.6 11 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box21">
-  <self_collide>false</self_collide>
-  <pose>-4.6 8 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box22">
-  <self_collide>false</self_collide>
-  <pose>-4.6 5 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box23">
-  <self_collide>false</self_collide>
-  <pose>-4.6 2 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model>
-
-<model name="in_box24">
-  <self_collide>false</self_collide>
-  <pose>-4.6 -1 0 0 0 1.57</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model> --> 
-
-<!-- <model name="in_box25">
-  <self_collide>false</self_collide>
-  <pose>-3 -2 0 0 0 0</pose>
-  <include merge="true">
-    <uri>model://brick_box_3x1x3/model.sdf</uri>
-  </include>
-</model> -->
+    <include>
+      <name>tile_15</name>
+      <uri>model://tunnel tile 2/16/model.sdf</uri>
+      <pose>80.000000 -40.000000 0.000000 0 0 3.141593</pose>
+    </include>
 
 
     

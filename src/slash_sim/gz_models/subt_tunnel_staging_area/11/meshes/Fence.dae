@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author/>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments/>
+    </contributor>
+    <created>2019-09-25T17:21:40Z</created>
+    <keywords/>
+    <modified>2019-09-25T17:21:40Z</modified>
+    <revision/>
+    <subject/>
+    <title/>
+    <unit meter="0.010000" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="MapFBXASC032FBXASC0352-image" name="MapFBXASC032FBXASC0352">
+      <init_from>../materials/textures/Beam.jpg</init_from>
+    </image>
+    <image id="MapFBXASC032FBXASC0351-image" name="MapFBXASC032FBXASC0351">
+      <init_from>../materials/textures/Plywood.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FBXASC0481FBXASC032-FBXASC032Default" name="FBXASC0481FBXASC032-FBXASC032Default">
+      <instance_effect url="#FBXASC0481FBXASC032-FBXASC032Default-fx"/>
+    </material>
+    <material id="FBXASC0482FBXASC032-FBXASC032Default" name="FBXASC0482FBXASC032-FBXASC032Default">
+      <instance_effect url="#FBXASC0482FBXASC032-FBXASC032Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="FBXASC0481FBXASC032-FBXASC032Default-fx" name="FBXASC0481FBXASC032-FBXASC032Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="MapFBXASC032FBXASC0351-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="FBXASC0482FBXASC032-FBXASC032Default-fx" name="FBXASC0482FBXASC032-FBXASC032Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="MapFBXASC032FBXASC0352-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Beams-lib" name="BeamsMesh">
+      <mesh>
+        <source id="Beams-POSITION">
+          <float_array id="Beams-POSITION-array" count="96">
+-250.000000 -2.947035 235.338348
+-250.000000 -2.947035 223.917770
+-250.000000 7.582525 235.338348
+-250.000000 7.582525 223.917770
+250.000031 -2.947035 235.338348
+250.000031 -2.947035 223.917755
+250.000031 7.582525 235.338348
+250.000031 7.582525 223.917755
+-249.999985 -2.947035 92.107483
+-249.999985 -2.947035 80.686905
+-249.999985 7.582525 92.107483
+-249.999985 7.582525 80.686905
+250.000031 -2.947035 92.107468
+250.000031 -2.947035 80.686905
+250.000031 7.582525 92.107468
+250.000031 7.582525 80.686905
+240.968948 -9.031050 0.000000
+259.031036 -9.031050 0.000000
+240.968948 9.031050 0.000000
+259.031036 9.031050 0.000000
+240.968948 -9.031050 301.275818
+259.031036 -9.031050 301.275818
+240.968948 9.031050 301.275818
+259.031036 9.031050 301.275818
+-259.031036 -9.031050 0.000000
+-240.968948 -9.031050 0.000000
+-259.031036 9.031050 0.000000
+-240.968948 9.031050 0.000000
+-259.031036 -9.031050 301.275818
+-240.968948 -9.031050 301.275818
+-259.031036 9.031050 301.275818
+-240.968948 9.031050 301.275818
+</float_array>
+          <technique_common>
+            <accessor source="#Beams-POSITION-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Beams-Normal0">
+          <float_array id="Beams-Normal0-array" count="288">
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Beams-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Beams-UV0">
+          <float_array id="Beams-UV0-array" count="176">
+1.970475 3.832247
+1.970475 3.851564
+-0.190476 3.851564
+-0.190476 3.832247
+0.199207 1.729313
+3.800794 1.729312
+3.800794 3.890263
+0.199207 3.890263
+0.199207 3.793970
+0.199207 3.774653
+3.800794 3.774653
+3.800794 3.793971
+1.970475 3.856043
+1.970475 3.875360
+-0.190476 3.875361
+-0.190476 3.856044
+0.199207 -0.094487
+3.800794 -0.094487
+3.800794 2.066465
+0.199207 2.066464
+0.199207 -0.002731
+3.800794 -0.002731
+3.800794 0.016587
+0.199207 0.016587
+-0.795377 1.441670
+-0.795377 1.382539
+2.012496 1.382539
+2.012496 1.441670
+-0.795377 1.074328
+-0.795377 1.015197
+2.012496 1.015197
+2.012496 1.074328
+-0.795377 1.336035
+-0.795377 1.271899
+2.012496 1.271899
+2.012496 1.336035
+-0.795377 1.441670
+-0.795377 1.382539
+2.012496 1.382539
+2.012496 1.441670
+-0.795377 1.074328
+-0.795377 1.015197
+2.012496 1.015197
+2.012496 1.074328
+-0.795377 1.336035
+-0.795377 1.271899
+2.012496 1.271899
+2.012496 1.336034
+-0.795377 1.449805
+-0.795377 1.348372
+0.896512 1.348372
+0.896512 1.449805
+-0.795377 1.222265
+-0.795377 1.120832
+0.896512 1.120832
+0.896512 1.222264
+-0.795377 1.108495
+-0.795377 1.007062
+0.896512 1.007062
+0.896512 1.108494
+-0.795377 1.336035
+-0.795377 1.234602
+0.896512 1.234602
+0.896512 1.336035
+-0.795377 0.897809
+-0.795377 0.796377
+-0.693945 0.796377
+-0.693945 0.897809
+-0.795377 1.449805
+-0.795377 1.348372
+0.896512 1.348372
+0.896512 1.449805
+-0.795377 1.222265
+-0.795377 1.120832
+0.896512 1.120832
+0.896512 1.222264
+-0.795377 1.108495
+-0.795377 1.007062
+0.896512 1.007062
+0.896512 1.108494
+-0.795377 1.336035
+-0.795377 1.234602
+0.896512 1.234602
+0.896512 1.336035
+-0.795377 0.897809
+-0.795377 0.796377
+-0.693945 0.796377
+-0.693945 0.897809
+</float_array>
+          <technique_common>
+            <accessor source="#Beams-UV0-array" count="88" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Beams-VERTEX">
+          <input semantic="POSITION" source="#Beams-POSITION"/>
+        </vertices>
+        <triangles count="0" material="FBXASC0481FBXASC032-FBXASC032Default">
+          <input semantic="VERTEX" offset="0" source="#Beams-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Beams-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Beams-UV0"/>
+          <p/>
+        </triangles>
+        <triangles count="32" material="FBXASC0482FBXASC032-FBXASC032Default">
+          <input semantic="VERTEX" offset="0" source="#Beams-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Beams-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Beams-UV0"/>
+          <p> 3 0 29 7 1 30 1 2 28 5 3 31 1 4 28 7 5 30 6 6 34 3 7 32 2 8 33 3 9 32 6 10 34 7 11 35 0 12 25 4 13 26 2 14 24 6 15 27 2 16 24 4 17 26 11 18 41 15 19 42 9 20 40 13 21 43 9 22 40 15 23 42 14 24 46 11 25 44 10 26 45 11 27 44 14 28 46 15 29 47 8 30 37 12 31 38 10 32 36 14 33 39 10 34 36 12 35 38 23 36 66 22 37 67 20 38 64 23 39 66 20 40 64 21 41 65 20 42 55 16 43 52 21 44 54 21 45 54 16 46 52 17 47 53 21 48 59 17 49 56 23 50 58 23 51 58 17 52 56 19 53 57 23 54 63 19 55 60 22 56 62 22 57 62 19 58 60 18 59 61 22 60 51 18 61 48 20 62 50 20 63 50 18 64 48 16 65 49 31 66 86 30 67 87 28 68 84 31 69 86 28 70 84 29 71 85 28 72 75 24 73 72 29 74 74 29 75 74 24 76 72 25 77 73 29 78 79 25 79 76 31 80 78 31 81 78 25 82 76 27 83 77 31 84 83 27 85 80 30 86 82 30 87 82 27 88 80 26 89 81 30 90 71 26 91 68 28 92 70 28 93 70 26 94 68 24 95 69</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plywood-lib" name="PlywoodMesh">
+      <mesh>
+        <source id="Plywood-POSITION">
+          <float_array id="Plywood-POSITION-array" count="24">
+-250.000000 -3.686973 0.000000
+250.000000 -3.686973 0.000000
+-250.000000 -1.005120 0.000000
+250.000000 -1.005120 0.000000
+-250.000000 -3.686973 300.000000
+250.000000 -3.686973 300.000000
+-250.000000 -1.005120 300.000000
+250.000000 -1.005120 300.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plywood-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plywood-Normal0">
+          <float_array id="Plywood-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plywood-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plywood-UV0">
+          <float_array id="Plywood-UV0-array" count="48">
+1.970475 3.832247
+1.970475 3.851564
+-0.190476 3.851564
+-0.190476 3.832247
+0.199207 1.729313
+3.800794 1.729312
+3.800794 3.890263
+0.199207 3.890263
+0.199207 3.793970
+0.199207 3.774653
+3.800794 3.774653
+3.800794 3.793971
+1.970475 3.856043
+1.970475 3.875360
+-0.190476 3.875361
+-0.190476 3.856044
+0.199207 -0.094487
+3.800794 -0.094487
+3.800794 2.066465
+0.199207 2.066464
+0.199207 -0.002731
+3.800794 -0.002731
+3.800794 0.016587
+0.199207 0.016587
+</float_array>
+          <technique_common>
+            <accessor source="#Plywood-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plywood-VERTEX">
+          <input semantic="POSITION" source="#Plywood-POSITION"/>
+        </vertices>
+        <triangles count="12" material="FBXASC0481FBXASC032-FBXASC032Default">
+          <input semantic="VERTEX" offset="0" source="#Plywood-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Plywood-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Plywood-UV0"/>
+          <p> 2 0 9 3 1 10 0 2 8 1 3 11 0 4 8 3 5 10 7 6 22 6 7 23 4 8 20 7 9 22 4 10 20 5 11 21 5 12 6 4 13 7 0 14 4 5 15 6 0 16 4 1 17 5 5 18 15 1 19 12 7 20 14 7 21 14 1 22 12 3 23 13 6 24 18 7 25 19 3 26 16 6 27 18 3 28 16 2 29 17 6 30 3 2 31 0 4 32 2 4 33 2 2 34 0 0 35 1</p>
+        </triangles>
+        <triangles count="0" material="FBXASC0482FBXASC032-FBXASC032Default">
+          <input semantic="VERTEX" offset="0" source="#Plywood-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Plywood-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Plywood-UV0"/>
+          <p/>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Fence" name="Fence">
+      <node name="Beams" id="Beams" sid="Beams">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Beams-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FBXASC0481FBXASC032-FBXASC032Default" target="#FBXASC0481FBXASC032-FBXASC032Default"/>
+              <instance_material symbol="FBXASC0482FBXASC032-FBXASC032Default" target="#FBXASC0482FBXASC032-FBXASC032Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Plywood" id="Plywood" sid="Plywood">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Plywood-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FBXASC0481FBXASC032-FBXASC032Default" target="#FBXASC0481FBXASC032-FBXASC032Default"/>
+              <instance_material symbol="FBXASC0482FBXASC032-FBXASC032Default" target="#FBXASC0482FBXASC032-FBXASC032Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Fence"/>
+  </scene>
+</COLLADA>

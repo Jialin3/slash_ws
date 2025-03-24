@@ -1,0 +1,28 @@
+model {
+  file: "model.sdf"
+  file_format {
+    version {
+      major: 1
+      minor: 6
+    }
+    name: "sdf"
+  }
+}
+name: "Tunnel Tile 5"
+description: "A straight tunnel tile"
+authors {
+  name: "Carlos Aguero"
+  email: "caguero@openrobotics.org"
+}
+authors {
+  name: "Ian Chen"
+  email: "ichen@openrobotics.org"
+}
+authors {
+  name: "Cole Biesemeyer"
+  email: "cole@openrobotics.org"
+}
+dependencies {
+  uri: "https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1"
+}
+

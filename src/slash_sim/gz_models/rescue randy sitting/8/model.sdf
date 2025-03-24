@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="rescue_randy_sitting">
+        <static>true</static>
+        <include>
+            <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Artifact Proximity Detector</uri>
+        </include>
+        <link name="link">
+            <pose>0 0 -0.623996 0 0 0</pose>
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/rescue_randy.dae</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/rescue_randy.dae</uri>
+                    </mesh>
+                </geometry>
+                <plugin filename="ignition-gazebo-thermal-system" name="ignition::gazebo::systems::Thermal">
+                    <heat_signature>materials/textures/RescueRandy_Thermal.png</heat_signature>
+                    <max_temp>305</max_temp>
+                </plugin>
+            </visual>
+        </link>
+    </model>
+</sdf>

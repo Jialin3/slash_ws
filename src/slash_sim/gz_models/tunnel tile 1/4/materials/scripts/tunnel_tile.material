@@ -1,0 +1,69 @@
+material TunnelTile/Light_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Light_Albedo.jpg
+      }
+    }
+  }
+}
+
+material TunnelTile/Walls_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Walls_Albedo.jpg
+      }
+    }
+  }
+}
+
+material TunnelTile/Wood_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Wood_Albedo.jpg
+      }
+    }
+  }
+}
+
+material TunnelTile/Ground_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Ground_Albedo.jpg
+      }
+    }
+  }
+}
+
+material TunnelTile/Chainlink_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Chainlink_Albedo.jpg
+      }
+    }
+  }
+}

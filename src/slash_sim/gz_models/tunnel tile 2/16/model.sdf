@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <model name="tunnel_tile_a">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <collision name="collision_ground">
+                <pose>3.5 -3.5 0 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>13 13 0.001</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="visual_chainlink">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                        <submesh>
+                            <name>Chainlink</name>
+                            <center>false</center>
+                        </submesh>
+                        <scale>1.005 1.005 1.0</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <diffuse>1.0 1.0 1.0</diffuse>
+                    <specular>1.0 1.0 1.0</specular>
+                    <pbr>
+                        <metal>
+                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Chainlink_Albedo.jpg</albedo_map>
+                            <normal_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Chainlink_Normal.jpg</normal_map>
+                            <roughness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Chainlink_Roughness.jpg</roughness_map>
+                            <metalness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Chainlink_Metalness.jpg</metalness_map>
+                        </metal>
+                    </pbr>
+                    <!-- fallback to script if no PBR support-->
+                    <script>
+                        <uri>materials/scripts</uri>
+                        <uri>materials/textures</uri>
+                        <name>TunnelTile/Chainlink_Diffuse</name>
+                    </script>
+                </material>
+            </visual>
+            <visual name="visual_ground">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                        <submesh>
+                            <name>Ground</name>
+                            <center>false</center>
+                        </submesh>
+                        <scale>1.005 1.005 1.0</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <diffuse>1.0 1.0 1.0</diffuse>
+                    <specular>1.0 1.0 1.0</specular>
+                    <pbr>
+                        <metal>
+                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Ground_Albedo.jpg</albedo_map>
+                            <normal_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Ground_Normal.jpg</normal_map>
+                            <roughness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Ground_Roughness.jpg</roughness_map>
+                        </metal>
+                    </pbr>
+                    <!-- fallback to script if no PBR support-->
+                    <script>
+                        <uri>materials/scripts</uri>
+                        <uri>materials/textures</uri>
+                        <name>TunnelTile/Ground_Diffuse</name>
+                    </script>
+                </material>
+            </visual>
+            <visual name="visual_wood">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                        <submesh>
+                            <name>Wood</name>
+                            <center>false</center>
+                        </submesh>
+                        <scale>1.005 1.005 1.0</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <diffuse>1.0 1.0 1.0</diffuse>
+                    <pbr>
+                        <metal>
+                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Wood_Albedo.jpg</albedo_map>
+                            <normal_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Wood_Normal.jpg</normal_map>
+                        </metal>
+                    </pbr>
+                    <!-- fallback to script if no PBR support-->
+                    <script>
+                        <uri>materials/scripts</uri>
+                        <uri>materials/textures</uri>
+                        <name>TunnelTile/Wood_Diffuse</name>
+                    </script>
+                </material>
+            </visual>
+            <visual name="visual_walls">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                        <submesh>
+                            <name>Walls</name>
+                            <center>false</center>
+                        </submesh>
+                        <scale>1.005 1.005 1.0</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <diffuse>1.0 1.0 1.0</diffuse>
+                    <specular>1.0 1.0 1.0</specular>
+                    <pbr>
+                        <metal>
+                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Walls_Albedo.jpg</albedo_map>
+                            <normal_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Walls_Normal.jpg</normal_map>
+                            <roughness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Walls_Roughness.jpg</roughness_map>
+                            <metalness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Walls_Metalness.jpg</metalness_map>
+                        </metal>
+                    </pbr>
+                    <!-- fallback to script if no PBR support-->
+                    <script>
+                        <uri>materials/scripts</uri>
+                        <uri>materials/textures</uri>
+                        <name>TunnelTile/Walls_Diffuse</name>
+                    </script>
+                </material>
+            </visual>
+            <visual name="visual_lights">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tunnel_tile_2.dae</uri>
+                        <submesh>
+                            <name>Lights</name>
+                            <center>false</center>
+                        </submesh>
+                        <scale>1.005 1.005 1.0</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <diffuse>1.0 1.0 1.0</diffuse>
+                    <specular>1.0 1.0 1.0</specular>
+                    <pbr>
+                        <metal>
+                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Light_Albedo.jpg</albedo_map>
+                            <normal_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Light_Normal.jpg</normal_map>
+                            <roughness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Light_Roughness.jpg</roughness_map>
+                            <metalness_map>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1/tip/files/materials/textures/Light_Metalness.jpg</metalness_map>
+                        </metal>
+                    </pbr>
+                    <!-- fallback to script if no PBR support-->
+                    <script>
+                        <uri>materials/scripts</uri>
+                        <uri>materials/textures</uri>
+                        <name>TunnelTile/Light_Diffuse</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+    </model>
+</sdf>

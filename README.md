@@ -43,6 +43,7 @@ Gazebo Sim Harmonic
 
 ## 二. 测试
 ![gazebo仿真](image/gazebo.jpg)
+![gazebo隧道](image/test_gazebo.jpg)
 ![nav导航](image/nav.jpg)
 
 

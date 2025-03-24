@@ -22,7 +22,17 @@ def generate_launch_description():
         executable='rqt_robot_steering'
     )
 
+    rviz_cmd = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', os.path.join( get_package_share_directory('slash_slam'), 'rviz', 'slam.rviz')],
+    )
+
+   
+
     ld = LaunchDescription()
     ld.add_action(slam_cmd)
     ld.add_action(robot_drive_cmd)
+    ld.add_action(rviz_cmd)
     return ld

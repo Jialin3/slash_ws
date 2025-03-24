@@ -10,7 +10,7 @@ def generate_launch_description():
     map_file = os.path.join(
         get_package_share_directory('slash_slam'),
         'map',
-        'map.yaml'
+        'tunnel.yaml'
     )
     
     nav_param_file = os.path.join(
